@@ -4610,13 +4610,13 @@ input, select, textarea {
     -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
     transition: border-bottom-color 0.2s ease, color 0.2s ease;
     text-decoration: none;
-    color: #1e1e1e;
+    color: #000000;
     border-bottom: transparent;
 }
 
         a:hover {
     border-bottom-color: transparent;
-    color: #1 !important;
+    color: #1e1e1e;
 }
 
     strong, b {
@@ -6665,8 +6665,8 @@ input, select, textarea {
     input[type="password"],
     input[type="email"],
     select {
-        height: 3em;
-    }
+    height: 4em;
+}
 
     textarea {
     padding: 0;
@@ -6924,10 +6924,10 @@ input, select, textarea {
         color: #000000 !important;
         cursor: pointer;
         display: inline-block;
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 900;
-        height: 4em;
-        letter-spacing: 0.125em;
+        height: 3.5em;
+        letter-spacing: 0.35em;
         line-height: 3.45em;
         overflow: hidden;
         padding: 0 1.25em 0 1.6em;
@@ -6959,7 +6959,7 @@ input, select, textarea {
         input[type="button"]:hover,
         button:hover,
         .button:hover {
-            color: #1e1e1e;
+            color: #000000 !important;
             box-shadow: inset 0 0 0 2px #000000;
         }
 
@@ -6968,7 +6968,7 @@ input, select, textarea {
         input[type="button"]:active,
         button:active,
         .button:active {
-            background-color: #000000;
+            background-color: rgba(0, 0, 0, 0.1);
         }
 
         input[type="submit"].small,
@@ -6976,7 +6976,7 @@ input, select, textarea {
         input[type="button"].small,
         button.small,
         .button.small {
-            font-size: 1em;
+            font-size: 0.6em;
         }
 
         input[type="submit"].large,
@@ -6987,14 +6987,14 @@ input, select, textarea {
             font-size: 1em;
         }
 
-nabl        input[type="submit"].primary,
+        input[type="submit"].primary,
         input[type="reset"].primary,
         input[type="button"].primary,
         button.primary,
         .button.primary {
     box-shadow: none;
     background-color: #000000;
-    color: #ffffff ;
+    color: #ffffff !important;
 }
 
             input[type="submit"].primary:hover,
@@ -7147,7 +7147,7 @@ nabl        input[type="submit"].primary,
                 }
 
                 .tiles article > a:hover {
-                    color: #ffffff;
+                    color: #ffffff !important;
                 }
 
                 .tiles article > a h2 {
@@ -7353,7 +7353,7 @@ nabl        input[type="submit"].primary,
                     #header nav ul li a {
     display: block;
     position: relative;
-    height: 3em;
+    height: 4em;
     line-height: 4em;
     padding: 0 1.5em;
     background-color: transparent;
