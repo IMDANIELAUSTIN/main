@@ -6992,10 +6992,10 @@ input, select, textarea {
         input[type="button"].primary,
         button.primary,
         .button.primary {
-            box-shadow: none;
-            background-color: #000000;
-            color: #000000 !important;
-        }
+    box-shadow: none;
+    background-color: #000000;
+    color: #ffffff !important;
+}
 
             input[type="submit"].primary:hover,
             input[type="reset"].primary:hover,
