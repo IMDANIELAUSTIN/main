@@ -6293,7 +6293,7 @@ input, select, textarea {
         }
 
         .icon.solid:before {
-            font-weight: 900;
+            font-weight: 800;
         }
 
         .icon.brands:before {
@@ -6305,7 +6305,7 @@ input, select, textarea {
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    background-color: transparent;
+    background-color: #000000;
     border: transparent;
     border-radius: 4px;
     width: 2.65em;
@@ -6313,20 +6313,21 @@ input, select, textarea {
     display: inline-block;
     text-align: center;
     line-height: 2.65em;
-    color: inherit;
+    color: #ffffff;
 }
 
             .icon.style2:before {
-                font-size: 1.1em;
+                font-size: 1em;
+                color; #ffffff
             }
 
             .icon.style2:hover {
-    color: #000000;
+    color: #1e1e1e;
     border-color: transparent;
 }
 
             .icon.style2:active {
-                background-color: rgba(242, 132, 158, 0.1);
+                background-color: #ffffff;
             }
 
 /* List */
