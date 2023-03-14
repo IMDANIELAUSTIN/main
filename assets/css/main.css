@@ -7298,16 +7298,16 @@ input, select, textarea {
     }
 
         #header .logo {
-            display: block;
-            border-bottom: 0;
-            color: inherit;
-            font-weight: 900;
-            letter-spacing: 0.35em;
-            margin: 0 0 2.5em 0;
-            text-decoration: none;
-            text-transform: uppercase;
-            display: inline-block;
-        }
+    display: block;
+    border-bottom: 0;
+    color: #000000;
+    font-weight: 800;
+    letter-spacing: 0.125em;
+    margin: 0 0 2.5em 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
 
             #header .logo > * {
                 display: inline-block;
