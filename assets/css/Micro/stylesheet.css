@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-ExtBdIta.eot');
+    src: local('Helvetica Now Micro ExtBd Ita'), local('HelveticaNowMicro-ExtBdIta'),
+        url('HelveticaNowMicro-ExtBdIta.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-ExtBdIta.woff2') format('woff2'),
+        url('HelveticaNowMicro-ExtBdIta.woff') format('woff'),
+        url('HelveticaNowMicro-ExtBdIta.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-Light.eot');
+    src: local('Helvetica Now Micro Light'), local('HelveticaNowMicro-Light'),
+        url('HelveticaNowMicro-Light.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-Light.woff2') format('woff2'),
+        url('HelveticaNowMicro-Light.woff') format('woff'),
+        url('HelveticaNowMicro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-MedIta.eot');
+    src: local('Helvetica Now Micro Med Ita'), local('HelveticaNowMicro-MedIta'),
+        url('HelveticaNowMicro-MedIta.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-MedIta.woff2') format('woff2'),
+        url('HelveticaNowMicro-MedIta.woff') format('woff'),
+        url('HelveticaNowMicro-MedIta.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-ExtLtIta.eot');
+    src: local('Helvetica Now Micro ExtLt Ita'), local('HelveticaNowMicro-ExtLtIta'),
+        url('HelveticaNowMicro-ExtLtIta.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-ExtLtIta.woff2') format('woff2'),
+        url('HelveticaNowMicro-ExtLtIta.woff') format('woff'),
+        url('HelveticaNowMicro-ExtLtIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-ExtraLight.eot');
+    src: local('Helvetica Now Micro Extra Light'), local('HelveticaNowMicro-ExtraLight'),
+        url('HelveticaNowMicro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-ExtraLight.woff2') format('woff2'),
+        url('HelveticaNowMicro-ExtraLight.woff') format('woff'),
+        url('HelveticaNowMicro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-LightItalic.eot');
+    src: local('Helvetica Now Micro Light Ita'), local('HelveticaNowMicro-LightItalic'),
+        url('HelveticaNowMicro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-LightItalic.woff2') format('woff2'),
+        url('HelveticaNowMicro-LightItalic.woff') format('woff'),
+        url('HelveticaNowMicro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-Medium.eot');
+    src: local('Helvetica Now Micro Medium'), local('HelveticaNowMicro-Medium'),
+        url('HelveticaNowMicro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-Medium.woff2') format('woff2'),
+        url('HelveticaNowMicro-Medium.woff') format('woff'),
+        url('HelveticaNowMicro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-RegIta.eot');
+    src: local('Helvetica Now Micro Reg Ita'), local('HelveticaNowMicro-RegIta'),
+        url('HelveticaNowMicro-RegIta.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-RegIta.woff2') format('woff2'),
+        url('HelveticaNowMicro-RegIta.woff') format('woff'),
+        url('HelveticaNowMicro-RegIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-BoldItalic.eot');
+    src: local('Helvetica Now Micro Bold Italic'), local('HelveticaNowMicro-BoldItalic'),
+        url('HelveticaNowMicro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-BoldItalic.woff2') format('woff2'),
+        url('HelveticaNowMicro-BoldItalic.woff') format('woff'),
+        url('HelveticaNowMicro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-Bold.eot');
+    src: local('Helvetica Now Micro Bold'), local('HelveticaNowMicro-Bold'),
+        url('HelveticaNowMicro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-Bold.woff2') format('woff2'),
+        url('HelveticaNowMicro-Bold.woff') format('woff'),
+        url('HelveticaNowMicro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-Regular.eot');
+    src: local('Helvetica Now Micro Regular'), local('HelveticaNowMicro-Regular'),
+        url('HelveticaNowMicro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-Regular.woff2') format('woff2'),
+        url('HelveticaNowMicro-Regular.woff') format('woff'),
+        url('HelveticaNowMicro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Micro';
+    src: url('HelveticaNowMicro-ExtraBold.eot');
+    src: local('Helvetica Now Micro Extra Bold'), local('HelveticaNowMicro-ExtraBold'),
+        url('HelveticaNowMicro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowMicro-ExtraBold.woff2') format('woff2'),
+        url('HelveticaNowMicro-ExtraBold.woff') format('woff'),
+        url('HelveticaNowMicro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
