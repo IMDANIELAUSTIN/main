@@ -598,7 +598,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1.2;
 }
 
 ol, ul {
@@ -686,15 +686,15 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #000000;
 		font-family: "Helvetica Now Display", 'Helvetica Now Display', sans-serif;
-		font-size: 16pt;
+		font-size: 24pt;
 		font-weight: 800;
-		line-height: 1.25;
+		line-height: 1.35;
 	}
 
 		@media screen and (max-width: 1800px) {
 
 			body, input, select, textarea {
-				font-size: 16pt;
+				font-size: 24pt;
 			}
 
 		}
@@ -702,7 +702,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 16pt;
+				font-size: 24pt;
 			}
 
 		}
@@ -719,7 +719,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #1e1e1e !important;
+			color: #000000 !important;
 		}
 
 	strong, b {
