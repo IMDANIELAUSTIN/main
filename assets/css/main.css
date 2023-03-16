@@ -6645,8 +6645,8 @@ input, select, textarea {
         background-size: 1.25rem;
         background-repeat: no-repeat;
         background-position: calc(100% - 1rem) center;
-        height: 3em;
-        padding-right: 3em;
+        height: 4em;
+        padding-right: 4em;
         text-overflow: ellipsis;
     }
 
@@ -6721,7 +6721,7 @@ input, select, textarea {
                 border: solid 1px #000000;
                 content: '';
                 display: inline-block;
-                font-size: 0.8em;
+                font-size: 1em;
                 height: 2.25em;
                 left: 0;
                 line-height: 2.25em;
@@ -7456,6 +7456,7 @@ input, select, textarea {
         -webkit-overflow-scrolling: touch;
         background: #000000;
         color: #ffffff;
+	text-transform: uppercase;
         cursor: default;
         visibility: hidden;
         z-index: 10002;
