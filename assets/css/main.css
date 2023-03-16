@@ -4620,7 +4620,7 @@ input, select, textarea {
 }
 
     strong, b {
-        font-weight: 900;
+        font-weight: 800;
     }
 
     em, i {
@@ -4633,9 +4633,9 @@ input, select, textarea {
 
     h1 {
         font-size: 2.75em;
-        font-weight: 700;
+        font-weight: 800;
         line-height: 1.3;
-        margin: 0 0 1em 0;
+        margin: 0 0 0em 0;
         letter-spacing: -0.035em;
     }
 
@@ -4647,7 +4647,7 @@ input, select, textarea {
 
             h1 {
                 font-size: 2em;
-                margin: 0 0 1em 0;
+                margin: 0 0 0em 0;
             }
 
         }
@@ -6305,7 +6305,7 @@ input, select, textarea {
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    background-color: #000000;
+    background-color: #ffffff;
     border: transparent;
     border-radius: 4px;
     width: 2.65em;
@@ -6514,7 +6514,7 @@ input, select, textarea {
 
         ul.icons li {
             display: inline-block;
-            padding: 1em 0 0 1em;
+            padding: 0em 0 0 0em;
         }
 
 /* Form */
@@ -6594,9 +6594,9 @@ input, select, textarea {
 
     label {
         display: block;
-        font-size: 0.9em;
-        font-weight: 900;
-        margin: 0 0 1em 0;
+        font-size: 1em;
+        font-weight: 800;
+        margin: 0 0 0em 0;
     }
 
     input[type="text"],
@@ -6637,7 +6637,7 @@ input, select, textarea {
         select:focus,
         textarea:focus {
             border-bottom-color: #000000;
-            box-shadow: inset 0 -1px 0 0 #000000;
+            box-shadow: inset 0 0px 0 0 #000000;
         }
 
     select {
@@ -6712,7 +6712,7 @@ input, select, textarea {
                 line-height: 1;
                 text-transform: none !important;
                 font-family: 'Font Awesome 5 Free';
-                font-weight: 900;
+                font-weight: 800;
             }
 
             input[type="checkbox"] + label:before,
@@ -7454,7 +7454,7 @@ input, select, textarea {
         max-width: 80%;
         height: 100%;
         -webkit-overflow-scrolling: touch;
-        background: #585858;
+        background: #1E1E1E;
         color: #ffffff;
         cursor: default;
         visibility: hidden;
@@ -7631,7 +7631,7 @@ input, select, textarea {
 /* Footer */
 
     #footer {
-    padding: 4em 0 4em 0;
+    padding: 0em 0 0em 0;
     background-color: #ffffff;
 }
 
@@ -7670,7 +7670,7 @@ input, select, textarea {
                 margin-top: 4em;
                 list-style: none;
                 font-size: 1em;
-                color: rgba(0, 0, 0, 0.0);
+                color: rgba(0, 0, 0, 0);
             }
 
                 #footer > .inner .copyright a {
@@ -7679,10 +7679,10 @@ input, select, textarea {
 
                 #footer > .inner .copyright li {
                     display: inline-block;
-                    border-left: solid 0px rgba(0, 0, 0, 0.0);
+                    border-left: solid 0px rgba(0, 0, 0, 0);
                     line-height: 1;
-                    padding: 0 0 0 1em;
-                    margin: 0 0 0 1em;
+                    padding: 0 0 0 0em;
+                    margin: 0 0 0 0em;
                 }
 
                     #footer > .inner .copyright li:first-child {
@@ -7726,7 +7726,7 @@ input, select, textarea {
         @media screen and (max-width: 736px) {
 
             #footer {
-                padding: 4em 0 1em 0 ;
+                padding: 0em 0 0em 0 ;
             }
 
                 #footer > .inner {
@@ -7760,7 +7760,7 @@ input, select, textarea {
         @media screen and (max-width: 480px) {
 
             #footer > .inner .copyright {
-                margin-top: 3em;
+                margin-top: 4em;
             }
 
                 #footer > .inner .copyright li {
