@@ -7670,7 +7670,7 @@ input, select, textarea {
                 margin-top: 4em;
                 list-style: none;
                 font-size: 1em;
-                color: rgba(0, 0, 0, 0);
+                color: #000000;
             }
 
                 #footer > .inner .copyright a {
@@ -7679,7 +7679,7 @@ input, select, textarea {
 
                 #footer > .inner .copyright li {
                     display: inline-block;
-                    border-left: solid 0px rgba(0, 0, 0, 0);
+                    border-left: solid 0px #000000;
                     line-height: 1;
                     padding: 0 0 0 0em;
                     margin: 0 0 0 0em;
