@@ -7143,7 +7143,7 @@ input, select, textarea {
                 border-radius: 0px;
                 border-bottom: 0;
                 color: #000000;
-                text-align: center;
+                text-align: left;
                 text-decoration: none;
                 z-index: 3;
             }
@@ -7222,7 +7222,7 @@ input, select, textarea {
             }
 
         * + .tiles {
-            margin-top: 2em;
+            margin-top: 0em;
         }
 
         body.is-preload .tiles article {
