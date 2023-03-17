@@ -2418,14 +2418,14 @@ input, select, textarea {
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
-			border: solid 1px #ffffff;
+			border: solid 1px #000000;
 			border-radius: 4px;
 			width: 2.65em;
 			height: 2.65em;
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
-			color: #ffffff;
+			color: #000000;
 		}
 
 			.icon.style2:before {
@@ -2433,12 +2433,12 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #ffffff;
+				color: #000000;
 				border-color: #000000;
 			}
 
 			.icon.style2:active {
-				background-color: #ffffff;
+				background-color: #000000;
 			}
 
 /* List */
@@ -2484,7 +2484,7 @@ input, select, textarea {
 
 		dl dt {
 			display: block;
-			font-weight: 900;
+			font-weight: 800;
 			margin: 0 0 1em 0;
 		}
 
