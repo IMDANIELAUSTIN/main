@@ -2625,7 +2625,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0em 0 0 0em;
+			padding: 0 0 0 0;
 		}
 
 /* Form */
@@ -2648,7 +2648,7 @@ input, select, textarea {
 			-webkit-flex-wrap: wrap;
 			-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
-			width: calc(100% + 3em);
+			width: calc(100% + 4em);
 			margin: -1.5em 0 2em -1.5em;
 		}
 
@@ -2707,7 +2707,7 @@ input, select, textarea {
 		display: block;
 		font-size: 1em;
 		font-weight: 800;
-		margin: 0 0 0em 0;
+		margin: 0 0 0 0;
 	}
 
 	input[type="text"],
@@ -2757,7 +2757,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
 		height: 4em;
-		padding-right: 3em;
+		padding-right: 4em;
 		text-overflow: ellipsis;
 	}
 
@@ -2777,7 +2777,7 @@ input, select, textarea {
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 3em;
+		height: 4em;
 	}
 
 	textarea {
@@ -2823,7 +2823,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
+				font-weight: 800;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -2888,7 +2888,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
+		border-radius: 0px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -3038,9 +3038,9 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 1em;
 		font-weight: 800;
-		height: 3.5em;
-		letter-spacing: 0.35em;
-		line-height: 3.45em;
+		height: 4em;
+		letter-spacing: 0;
+		line-height: 3.6em;
 		overflow: hidden;
 		padding: 0 1.25em 0 1.6em;
 		text-align: center;
@@ -3080,7 +3080,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: #(0, 0, 0, 0);
 		}
 
 		input[type="submit"].small,
@@ -3171,7 +3171,7 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				width: 100%;
-				border-radius: 4px;
+				border-radius: 0px;
 				overflow: hidden;
 			}
 
@@ -3246,7 +3246,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				padding: 1em;
-				border-radius: 4px;
+				border-radius: 0px;
 				border-bottom: 0;
 				color: #ffffff;
 				text-align: center;
@@ -3415,7 +3415,7 @@ input, select, textarea {
 			color: inherit;
 			font-weight: 800;
 			letter-spacing: 0em;
-			margin: 0 0 0em 0;
+			margin: 0 0 0 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -3428,12 +3428,14 @@ input, select, textarea {
 
 			#header .logo .symbol {
 				margin-right: 0em;
+				vertical-align: left;
 			}
 
 				#header .logo .symbol img {
 					display: block;
 					width: 2em;
 					height: 2em;
+					vertical-align: left;
 				}
 
 		#header nav {
@@ -3465,7 +3467,7 @@ input, select, textarea {
 					#header nav ul li a {
     display: block;
     position: relative;
-    height: 3em;
+    height: 4em;
     line-height: 4em;
     padding: 0 1.5em;
     background-color: transparent;
@@ -3511,11 +3513,11 @@ input, select, textarea {
 
 						#header nav ul li a[href="#menu"]:after {
 							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23585858%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
-							opacity: 1;
+							opacity: 0;
 						}
 
 						#header nav ul li a[href="#menu"]:hover:before {
-							opacity: 1;
+							opacity: 0;
 						}
 
 						#header nav ul li a[href="#menu"]:hover:after {
@@ -3525,7 +3527,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 4em 0 0 0 ;
 			}
 
 				#header nav {
