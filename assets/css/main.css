@@ -7484,26 +7484,26 @@ input, select, textarea {
 
             #menu > .inner > ul {
                 list-style: none;
-                margin: 0 0 1em 0;
+                margin: 0 0 0 0;
                 padding: 0;
             }
 
                 #menu > .inner > ul > li {
                     padding: 0;
-                    border-top: solid 1px rgba(0, 0, 0, 0.0);
+                    border-top: solid 1px rgba #00000;
                 }
 
                     #menu > .inner > ul > li a {
     display: block;
-    padding: 1em 0;
-    line-height: 1.3;
+    padding: 24px 24px 0 0;
+    line-height: 1.2;
     border: 0;
     color: inherit;
 }
 
                     #menu > .inner > ul > li:first-child {
                         border-top: 0;
-                        margin-top: -1em;
+                        margin-top: 0em;
                     }
 
         #menu > .close {
