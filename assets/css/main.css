@@ -7295,7 +7295,7 @@ input, select, textarea {
 /* Header */
 
     #header {
-        padding: 4em 0 2em 0 ;
+        padding: 2em 0 2em 0 ;
     }
 
         #header .logo {
@@ -7304,7 +7304,7 @@ input, select, textarea {
     color: #000000;
     font-weight: 800;
     letter-spacing: 0em;
-    margin: 0 0 0em 0;
+    margin: 0 0 0 0;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -7312,17 +7312,19 @@ input, select, textarea {
 
             #header .logo > * {
                 display: inline-block;
-                vertical-align: middle;
+                vertical-align: left;
             }
 
             #header .logo .symbol {
-                margin-right: 0em;
+                margin-right: 0;
+		vertical-align: left;
             }
 
                 #header .logo .symbol img {
                     display: block;
                     width: 16em;
                     height: 4em;
+		    vertical-align: left;
                 }
 
         #header nav {
@@ -7337,10 +7339,10 @@ input, select, textarea {
                 display: -webkit-flex;
                 display: -ms-flex;
                 display: flex;
-                -moz-align-items: center;
-                -webkit-align-items: center;
-                -ms-align-items: center;
-                align-items: center;
+                -moz-align-items: left;
+                -webkit-align-items: left;
+                -ms-align-items: left;
+                align-items: left;
                 list-style: none;
                 margin: 0;
                 padding: 0;
