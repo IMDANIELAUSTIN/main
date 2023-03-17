@@ -6280,14 +6280,14 @@ input, select, textarea {
             font-style: normal;
             font-variant: normal;
             text-rendering: auto;
-            line-height: 1;
+            line-height: 1.2;
             text-transform: none !important;
             font-family: 'Font Awesome 5 Free';
             font-weight: 400;
         }
 
         .icon > .label {
-            display: none;
+            display: visible;
         }
 
         .icon:before {
@@ -6307,15 +6307,15 @@ input, select, textarea {
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    background-color: #ffffff;
+    background-color: #000000;
     border: transparent;
-    border-radius: 4px;
+    border-radius: 0px;
     width: 2.65em;
     height: 2.65em;
     display: inline-block;
     text-align: center;
     line-height: 2.65em;
-    color: #ffffff;
+    color: #000000;
 }
 
             .icon.style2:before {
@@ -6324,8 +6324,8 @@ input, select, textarea {
             }
 
             .icon.style2:hover {
-    color: #1e1e1e;
-    border-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
             .icon.style2:active {
@@ -6336,7 +6336,7 @@ input, select, textarea {
 
     ol {
         list-style: decimal;
-        margin: 0 0 2em 0;
+        margin: 0;
         padding-left: 1.25em;
     }
 
@@ -6346,7 +6346,7 @@ input, select, textarea {
 
     ul {
         list-style: disc;
-        margin: 0 0 2em 0;
+        margin: 0;
         padding-left: 1em;
     }
 
@@ -6375,8 +6375,8 @@ input, select, textarea {
 
         dl dt {
             display: block;
-            font-weight: 900;
-            margin: 0 0 1em 0;
+            font-weight: 800;
+            margin: 0;
         }
 
         dl dd {
@@ -6392,12 +6392,12 @@ input, select, textarea {
         display: flex;
         cursor: default;
         list-style: none;
-        margin-left: -1em;
+        margin-left: 0;
         padding-left: 0;
     }
 
         ul.actions li {
-            padding: 0 0 0 1em;
+            padding: 0;
             vertical-align: middle;
         }
 
@@ -6423,7 +6423,7 @@ input, select, textarea {
         }
 
             ul.actions.stacked li {
-                padding: 1.3em 0 0 0;
+                padding: 1em 0 0 0;
             }
 
                 ul.actions.stacked li:first-child {
@@ -6474,7 +6474,7 @@ input, select, textarea {
                     -webkit-flex-shrink: 1;
                     -ms-flex-shrink: 1;
                     flex-shrink: 1;
-                    padding: 1em 0 0 0;
+                    padding: 0;
                     text-align: center;
                     width: 100%;
                 }
@@ -6511,18 +6511,18 @@ input, select, textarea {
         cursor: default;
         list-style: none;
         padding-left: 0;
-        margin: 0 0 0 0;
+        margin: 0;
     }
 
         ul.icons li {
             display: inline-block;
-            padding: 0 0 0 0;
+            padding: 0;
         }
 
 /* Form */
 
     form {
-        margin: 0 0 0 0;
+        margin: 0;
         overflow-x: hidden;
     }
 
@@ -7625,13 +7625,13 @@ input, select, textarea {
 /* Main */
 
     #main {
-        padding: 0 0 64em 0 ;
+        padding: 2em 2em 2em 2em ;
     }
 
         @media screen and (max-width: 736px) {
 
             #main {
-                padding: 0 0 0 0 ;
+                padding: 2em 2em 2em 2em ;
             }
 
         }
@@ -7639,7 +7639,7 @@ input, select, textarea {
 /* Footer */
 
     #footer {
-    padding: 0 0 0 0;
+    padding: 2em 2em 2em 2em;
     background-color: #ffffff;
 }
 
@@ -7674,8 +7674,8 @@ input, select, textarea {
 
             #footer > .inner .copyright {
                 width: 100%;
-                padding: 0;
-                margin-top: 2em;
+                padding: 2em;
+                margin-top: 0;
                 list-style: none;
                 font-size: 1em;
                 color: #000000;
@@ -7689,8 +7689,8 @@ input, select, textarea {
                     display: inline-block;
                     border-left: solid 0px #000000;
                     line-height: 1;
-                    padding: 0 0 0 0;
-                    margin: 0 0 0 0;
+                    padding: 2em;
+                    margin: 2em;
                 }
 
                     #footer > .inner .copyright li:first-child {
