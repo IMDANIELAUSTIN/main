@@ -7040,8 +7040,9 @@ input, select, textarea {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        postiion: relative;
-        margin: -2.5em 0 0 -2.5em;
+        postiion: center;
+        margin: 2em 2em 2em 2em;
+	padding: 8em 8em 8em 8em;
     }
 
         .tiles article {
@@ -7051,7 +7052,8 @@ input, select, textarea {
             transition: transform 0.5s ease, opacity 0.5s ease;
             position: relative;
             width: calc(33.33333% - 2.5em);
-            margin: 2.5em 0 0 2.5em;
+            margin: 2em 2em 2em 2em;
+	    padding: 8em 8em 8em 8em;
         }
 
             .tiles article > .image {
@@ -7064,6 +7066,7 @@ input, select, textarea {
                 width: 100%;
                 border-radius: 0px;
                 overflow: hidden
+
             }
 
                 .tiles article > .image img {
@@ -7164,7 +7167,7 @@ input, select, textarea {
                     transition: max-height 0.5s ease, opacity 0.5s ease;
                     width: 100%;
                     max-height: 0;
-                    line-height: 1.5;
+                    line-height: 1.2;
                     margin-top: 0.35em;
                     opacity: 100;
                 }
