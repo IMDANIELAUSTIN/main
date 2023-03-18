@@ -728,7 +728,7 @@ input, select, textarea {
 
 		a:hover {
     border-bottom-color: transparent;
-    color: #1e1e1e !important;
+    color: #000000 !important;
 }
 
 	strong, b {
@@ -791,7 +791,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: .84em;
+		font-size: 1.68em;
 	}
 
 	h4 {
@@ -848,7 +848,7 @@ input, select, textarea {
 	code {
 		background: rgba(0, 0, 0, 0.0);
 		border-radius: 4px;
-		border: solid 1px #1e1e1e;
+		border: solid 1px #000000;
 		font-family: "Helvetica Now", monospace;
 		font-size: 0.84em;
 		margin: 0 0.25em;
