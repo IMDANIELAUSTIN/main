@@ -7690,7 +7690,7 @@ input, select, textarea {
                     border-left: solid 0px #000000;
                     line-height: 1;
                     padding: 2em;
-                    margin: 2em;
+                    margin: 0;
                 }
 
                     #footer > .inner .copyright li:first-child {
@@ -7702,7 +7702,7 @@ input, select, textarea {
         @media screen and (max-width: 1280px) {
 
             #footer {
-                padding: 5em 0 3em 0 ;
+                padding: 0 ;
             }
 
                 #footer > .inner section:nth-child(1) {
