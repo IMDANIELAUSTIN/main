@@ -7040,7 +7040,7 @@ input, select, textarea {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        postiion: center;
+        postiion: relative;
         margin: 8em;
 	padding: 8em;
     }
@@ -7051,7 +7051,7 @@ input, select, textarea {
             -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
             transition: transform 0.5s ease, opacity 0.5s ease;
             position: relative;
-            width: calc(33.33333% - 2.5em);
+            width: calc(33.33333% - 4em);
             margin: 8em;
 	    padding: 8em;
         }
