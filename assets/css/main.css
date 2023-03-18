@@ -7052,7 +7052,6 @@ input, select, textarea {
             transition: transform 0.5s ease, opacity 0.5s ease;
             position: relative;
             width: calc(33.33333% - 4em);
-            margin: 2em;
 	    padding: 16em;
         }
 
