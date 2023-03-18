@@ -6252,7 +6252,7 @@ input, select, textarea {
 /* Section/Article */
 
     section.special, article.special {
-        text-align: center;
+        text-align: left;
     }
 
     header p {
@@ -6322,12 +6322,12 @@ input, select, textarea {
 
             .icon.style2:before {
                 font-size: 1em;
-                color; #000000
+                color: #000000
             }
 
             .icon.style2:hover {
-    color: #ffffff;
-    border-color: #1e1e1e;
+    color: #ff0000;
+    border-color: #ff0000;
 }
 
             .icon.style2:active {
