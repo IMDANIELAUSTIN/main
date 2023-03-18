@@ -744,7 +744,7 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 4em;
+		font-size: 3.36em;
 		font-weight: 800;
 		line-height: 1.2;
 		margin: 0 0 0 0;
@@ -758,8 +758,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			h1 {
-				font-size: 2em;
-				margin: 0 0 0em 0;
+				font-size: 3.36em;
+				margin: 0 0 0 0;
 			}
 
 		}
@@ -767,7 +767,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			h1 {
-				font-size: 2em;
+				font-size: 3.36em;
 			}
 
 		}
@@ -785,11 +785,11 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1em;
+		font-size: 1.68em;
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: .84em;
 	}
 
 	h4 {
@@ -815,7 +815,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1em;
+			font-size: 1.68em;
 		}
 
 		h3 {
@@ -848,7 +848,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: solid 1px #1e1e1e;
 		font-family: "Helvetica Now", monospace;
-		font-size: 0.9em;
+		font-size: 0.84em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
@@ -856,13 +856,13 @@ input, select, textarea {
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Helvetica Now", monospace;
-		font-size: 0.9em;
+		font-size: 0.84em;
 		margin: 0 0 2em 0;
 	}
 
 		pre code {
 			display: block;
-			line-height: 1.75;
+			line-height: 1.2;
 			padding: 1em 1.5em;
 			overflow-x: auto;
 		}
@@ -1032,19 +1032,19 @@ input, select, textarea {
 
 		.row.gtr-0 {
 			margin-top: 0;
-			margin-left: 0em;
+			margin-left: 0;
 		}
 
 			.row.gtr-0 > * {
-				padding: 0 0 0 0em;
+				padding: 0 0 0 0;
 			}
 
 			.row.gtr-0.gtr-uniform {
-				margin-top: 0em;
+				margin-top: 0;
 			}
 
 				.row.gtr-0.gtr-uniform > * {
-					padding-top: 0em;
+					padding-top: 0;
 				}
 
 		.row.gtr-25 {
@@ -1132,7 +1132,7 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -1377,7 +1377,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -1622,7 +1622,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -1867,7 +1867,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -2112,7 +2112,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 1800px) {
 
 			.row {
 				display: flex;
@@ -2360,7 +2360,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -2423,7 +2423,7 @@ input, select, textarea {
 			width: 2.65em;
 			height: 2.65em;
 			display: inline-block;
-			text-align: center;
+			text-align: left;
 			line-height: 2.65em;
 			color: #000000;
 		}
