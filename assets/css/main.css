@@ -3732,13 +3732,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 0em 0 8em 0 ;
+		padding: 0 ;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#main {
-				padding: 0em 0 4em 0 ;
+				padding: 0 0 4em 0 ;
 			}
 
 		}
@@ -3746,7 +3746,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 0em 0 0em 0 ;
+		padding: 0 0 0 0 ;
 		background-color: #ffffff;
 	}
 
@@ -3784,8 +3784,8 @@ input, select, textarea {
 				padding: 0;
 				margin-top: 5em;
 				list-style: none;
-				font-size: 0.8em;
-				color: rgba(0, 0, 0, 0.0);
+				font-size: 1.68em;
+				color: rgba #000000;
 			}
 
 				#footer > .inner .copyright a {
@@ -3809,7 +3809,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 4em 0 4em 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -4551,7 +4551,7 @@ input, select, textarea {
         -ms-overflow-style: scrollbar;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1800px) {
 
         html, body {
             min-width: 320px;
@@ -4620,7 +4620,7 @@ input, select, textarea {
 
         a:hover {
     border-bottom-color: transparent;
-    color: #000000;
+    color: #ff0000;
 }
 
     strong, b {
@@ -4650,7 +4650,7 @@ input, select, textarea {
         @media screen and (max-width: 736px) {
 
             h1 {
-                font-size: 2em;
+                font-size: 3.36em;
                 margin: 0 0 0 0;
             }
 
@@ -4659,14 +4659,14 @@ input, select, textarea {
         @media screen and (max-width: 360px) {
 
             h1 {
-                font-size: 2em;
+                font-size: 3.36em;
             }
 
         }
 
     h2, h3, h4, h5, h6 {
     font-weight: 800;
-    line-height: 1.3;
+    line-height: 1.2;
     margin: 0 0 0 0;
     text-transform: uppercase;
     letter-spacing: 0em;
@@ -4677,23 +4677,23 @@ input, select, textarea {
         }
 
     h2 {
-    font-size: 1em;
+    font-size: 1.68em;
 }
 
     h3 {
-        font-size: 1em;
+        font-size: 1.68em;
     }
 
     h4 {
-        font-size: 1em;
+        font-size: 1.68em;
     }
 
     h5 {
-        font-size: 1em;
+        font-size: 1.68em;
     }
 
     h6 {
-        font-size: 1em;
+        font-size: 1.68em;
     }
 
     @media screen and (max-width: 980px) {
@@ -4707,17 +4707,17 @@ input, select, textarea {
     @media screen and (max-width: 736px) {
 
         h2 {
-            font-size: 1em;
+            font-size: 1.68em;
         }
 
         h3 {
-            font-size: 1em;
+            font-size: 1.68em;
         }
 
     }
 
     sub {
-        font-size: 1em;
+        font-size: 1.68em;
         position: relative;
         top: 0.5em;
     }
@@ -6252,14 +6252,14 @@ input, select, textarea {
 /* Section/Article */
 
     section.special, article.special {
-        text-align: left;
+        text-align: center;
     }
 
     header p {
         margin-top: -1em;
     }
 
-    @media screen and (max-width: 736px) {
+    @media screen and (max-width: 1800px) {
 
         header p {
             margin-top: 0;
