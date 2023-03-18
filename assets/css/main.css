@@ -7124,7 +7124,7 @@ input, select, textarea {
                 -moz-align-items: center;
                 -webkit-align-items: center;
                 -ms-align-items: center;
-                align-items: center;
+                align-items: stretch;
                 -moz-justify-content: center;
                 -webkit-justify-content: center;
                 -ms-justify-content: center;
