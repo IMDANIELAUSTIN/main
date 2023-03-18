@@ -7043,8 +7043,6 @@ input, select, textarea {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         postiion: relative;
-        margin: 8em;
-	padding: 8em;
     }
 
         .tiles article {
@@ -7054,8 +7052,8 @@ input, select, textarea {
             transition: transform 0.5s ease, opacity 0.5s ease;
             position: relative;
             width: calc(33.33333% - 4em);
-            margin: 8em;
-	    padding: 8em;
+            margin: 2em;
+	    padding: 16em;
         }
 
             .tiles article > .image {
@@ -7155,7 +7153,7 @@ input, select, textarea {
                 }
 
                 .tiles article > a:hover {
-                    color: #000000 !important;
+                    color: #ff0000 !important;
                 }
 
                 .tiles article > a h2 {
