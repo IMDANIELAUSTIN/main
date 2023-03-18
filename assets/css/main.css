@@ -7051,7 +7051,7 @@ input, select, textarea {
             -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
             transition: transform 0.5s ease, opacity 0.5s ease;
             position: relative;
-            width: calc(33.33333% - 4em);
+            width: calc(16em);
 	    padding: 16em;
         }
 
@@ -7121,9 +7121,9 @@ input, select, textarea {
                 -webkit-flex-direction: column;
                 -ms-flex-direction: column;
                 flex-direction: column;
-                -moz-align-items: center;
-                -webkit-align-items: center;
-                -ms-align-items: center;
+                -moz-align-items: stretch;
+                -webkit-align-items: stretch;
+                -ms-align-items: stretch;
                 align-items: stretch;
                 -moz-justify-content: center;
                 -webkit-justify-content: center;
