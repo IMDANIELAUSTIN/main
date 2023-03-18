@@ -6307,29 +6307,29 @@ input, select, textarea {
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    background-color: #000000;
+    background-color: transparent;
     border: transparent;
     border-radius: 0px;
-    width: 2.65em;
-    height: 2.65em;
+    width: 8em;
+    height: 2em;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     line-height: 2.65em;
     color: #000000;
 }
 
             .icon.style2:before {
                 font-size: 1em;
-                color; #ffffff
+                color; #000000
             }
 
             .icon.style2:hover {
     color: #ffffff;
-    border-color: #ffffff;
+    border-color: #1e1e1e;
 }
 
             .icon.style2:active {
-                background-color: #ffffff;
+                background-color: #000000;
             }
 
 /* List */
