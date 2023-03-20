@@ -756,7 +756,7 @@ input, select, textarea {
 			color: inherit;
 		}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 720px) {
 
 			h1 {
 				font-size: 3.36em;
@@ -7325,8 +7325,8 @@ input, select, textarea {
 
                 #header .logo .symbol img {
                     display: block;
-                    width: 48pt;
-                    height: 48pt;
+                    width: 32pt;
+                    height: 32pt;
 		    vertical-align: middle;
                 }
 
