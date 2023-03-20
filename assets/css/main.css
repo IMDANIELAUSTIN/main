@@ -7640,7 +7640,9 @@ input, select, textarea {
     #footer {
     margin: auto;
     background-color: #ffffff;
-    align-content: middle;
+    align-content: center;
+    text-transform: uppercase;
+
 }
 
         #footer > .inner {
@@ -7678,6 +7680,8 @@ input, select, textarea {
                 margin-top: auto;
                 list-style: none;
                 font-size: 1em;
+		align-content: center;
+    		text-transform: uppercase;
                 color: #000000;
             }
 
@@ -7733,6 +7737,8 @@ input, select, textarea {
 
             #footer {
                 padding: 0 0 0 0 ;
+		align-content: center;
+    		text-transform: uppercase;
             }
 
                 #footer > .inner {
@@ -7745,7 +7751,7 @@ input, select, textarea {
                     #footer > .inner section:nth-child(1) {
                         width: 100%;
                         margin-right: 0;
-                        margin: 0 0 0 0;
+                        margin: auto;
                     }
 
                     #footer > .inner section:nth-child(2) {
@@ -7767,12 +7773,14 @@ input, select, textarea {
 
             #footer > .inner .copyright {
                 margin-top: auto;
+		align-content: center;
+    		text-transform: uppercase;
             }
 
                 #footer > .inner .copyright li {
                     border-left: 0;
                     padding-left: 0;
-                    margin: 0.75em 0 0 0;
+                    margin: auto;
                     display: block;
                     line-height: inherit;
                 }
@@ -7788,14 +7796,16 @@ input, select, textarea {
     #wrapper > * > .inner {
         width: 100%;
         max-width: 68em;
-        margin: 0 auto;
+        margin: auto;
         padding: 0 0 0 0;
+	align-content: center;
+   	text-transform: uppercase;
     }
 
         @media screen and (max-width: 736px) {
 
             #wrapper > * > .inner {
-                padding: 0 1.25em;
+                padding: 0em;
             }
 
         }
