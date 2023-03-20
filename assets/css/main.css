@@ -607,7 +607,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1.2;
 }
 
 ol, ul {
@@ -652,7 +652,7 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: 1800px;
+		width: 1280px;
 	}
 
 	body {
@@ -700,7 +700,7 @@ input, select, textarea {
 		line-height: 1.2;
 	}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
         font-size: 16pt;
@@ -756,7 +756,7 @@ input, select, textarea {
 			color: inherit;
 		}
 
-		@media screen and (max-width: 720px) {
+		@media screen and (max-width: 980px) {
 
 			h1 {
 				font-size: 3.36em;
@@ -1379,7 +1379,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 1280px) {
 
 			.row {
 				display: flex;
@@ -1624,7 +1624,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 768px) {
 
 			.row {
 				display: flex;
@@ -1869,7 +1869,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 600px) {
 
 			.row {
 				display: flex;
@@ -2114,7 +2114,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 480px) {
 
 			.row {
 				display: flex;
@@ -2392,7 +2392,7 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-			line-height: 1;
+			line-height: 1.2;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
@@ -2427,7 +2427,7 @@ input, select, textarea {
 			display: inline-block;
 			text-align: left;
 			line-height: 2.65em;
-			color: #000000;
+			color: #ff0000;
 		}
 
 			.icon.style2:before {
@@ -2435,12 +2435,12 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #000000;
-				border-color: #000000;
+				color: #ff0000;
+				border-color: #ff0000;
 			}
 
 			.icon.style2:active {
-				background-color: #000000;
+				background-color: #FF0000;
 			}
 
 /* List */
