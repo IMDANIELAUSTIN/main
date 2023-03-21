@@ -7717,21 +7717,20 @@ input, select, textarea {
             }
 
             #footer > .inner section:nth-child(1) {
-                width: calc(66% - 2.5em);
                 margin: auto;
             }
 
             #footer > .inner section:nth-child(2) {
-                width: calc(33% - 2.5em);
                 margin: auto;
             }
 
             #footer > .inner .copyright {
-                width: 100%;
+                width: 500;
                 padding: 2em;
                 margin-top: auto;
                 list-style: none;
                 font-size: 1em;
+		align-text: center;
 		align-content: center;
     		text-transform: uppercase;
                 color: #000000;
@@ -7760,12 +7759,10 @@ input, select, textarea {
             }
 
                 #footer > .inner section:nth-child(1) {
-                    width: calc(66% - 1.25em);
                     margin-right: auto;
                 }
 
                 #footer > .inner section:nth-child(2) {
-                    width: calc(33% - 1.25em);
                     margin-left: auto;
                 }
 
@@ -7774,13 +7771,11 @@ input, select, textarea {
         @media screen and (max-width: 980px) {
 
             #footer > .inner section:nth-child(1) {
-                width: 66%;
-                margin-right: auto;
+                margin: auto;
             }
 
             #footer > .inner section:nth-child(2) {
-                width: calc(33% - 2.5em);
-                margin-left: auto;
+                margin: auto;
             }
 
         }
@@ -7789,7 +7784,9 @@ input, select, textarea {
 
             #footer {
                 padding: 0 0 0 0 ;
+		margin: auto;
 		align-content: center;
+		align-text: center;
     		text-transform: uppercase;
             }
 
@@ -7801,8 +7798,6 @@ input, select, textarea {
                 }
 
                     #footer > .inner section:nth-child(1) {
-                        width: 100%;
-                        margin-right: 0;
                         margin: auto;
                     }
 
@@ -7816,7 +7811,7 @@ input, select, textarea {
                     }
 
                     #footer > .inner .copyright {
-                        margin-top: auto;
+                        margin: auto;
                     }
 
         }
@@ -7824,21 +7819,21 @@ input, select, textarea {
         @media screen and (max-width: 480px) {
 
             #footer > .inner .copyright {
-                margin-top: auto;
+                margin: auto;
 		align-content: center;
+		align-text: center;
     		text-transform: uppercase;
             }
 
                 #footer > .inner .copyright li {
                     border-left: 0;
-                    padding-left: 0;
                     margin: auto;
                     display: block;
                     line-height: inherit;
                 }
 
                     #footer > .inner .copyright li:first-child {
-                        margin-top: 0;
+                        margin: auto;
                     }
 
         }
@@ -7849,7 +7844,6 @@ input, select, textarea {
         width: 100%;
         max-width: 68em;
         margin: auto;
-        padding: 0 0 0 0;
 	align-content: center;
    	text-transform: uppercase;
     }
@@ -7857,7 +7851,17 @@ input, select, textarea {
         @media screen and (max-width: 736px) {
 
             #wrapper > * > .inner {
-                padding: 0em;
+		margin: auto;
+            }
+  @media screen and (max-width: 480px) {
+
+            #wrapper > * > .inner {
+		margin: auto;
+            }
+  @media screen and (max-width: 320px) {
+
+            #wrapper > * > .inner {
+		margin: auto;
             }
 
         }
