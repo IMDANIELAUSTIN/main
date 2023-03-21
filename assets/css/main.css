@@ -101,7 +101,7 @@ font-display: swap;
 @font-face {
     font-family: 'Helvetica Now Display';
     src: url('HelveticaNowDisplay-ExtBlk.eot');
-    src: local('Helvetica Now Display ExtBlk'), local('HelveticaNowDisplay-ExtBlk'),
+    src: local('assets/webfonts/Display/Helvetica Now Display ExtBlk'), local('HelveticaNowDisplay-ExtBlk'),
         url('HelveticaNowDisplay-ExtBlk.eot?#iefix') format('embedded-opentype'),
         url('HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
         url('HelveticaNowDisplay-ExtBlk.woff') format('woff'),
@@ -742,7 +742,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Helvetica Now Display", 'Helvetica Now Display', sans-serif;
+		font-family: 'Helvetica Now Text Regular' , 'Helvetica Now Display', sans-serif;
 		font-size: 24pt;
 		font-weight: 800;
 font-display: swap;
