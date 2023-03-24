@@ -7386,8 +7386,10 @@ input, select, textarea {
     #footer {
     margin: auto;
     background-color: #ffffff;
-    align-content: center;
+    text-align: center;
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
 
 }
 
