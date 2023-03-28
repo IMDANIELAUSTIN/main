@@ -256,15 +256,38 @@
         
     <form>
         <label for="name">Name</label>
-            <input required type="text" name="name" placeholder="       Your Name Here">
+            <input required type="text" name="name" placeholder="  Company/Name Here">
         
         <label for="email">Your Email Address</label>
-            <input required type="text" id="email" placeholder="       Your Email Here">
+            <input required type="text" id="email" placeholder="    Email Address Here">
         
-        <label for="message">Your Message</label>
-            <input type="text" id="email" placeholder="    Your Message Here">
         
         <button type="submit">Send Message</button>
+                <br>
+
+<input type="checkbox" id="Business Inquiry" name="Business Inquiry" value="Business Inquiry">
+<label for="Yes">This Is A Business Inquiry</label><br>
+
+        <fieldset>
+    <legend>Project Priority:</legend>
+
+    <div>
+      <input type="radio" id="No Work" name="No Work" value="No Work"
+             checked>
+      <label for="No Work">I Don't Have Work Now But, I Want To Know Your Price.</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Work Available" name="Work Available" value="Work Available">
+      <label for="dewey">I Have Work For You, Let's Work Immediately.</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Maybe Work" name="Maybe Work" value="Maybe Work">
+      <label for="louie">I Don't Have Work Now But Will Soon.</label>
+    </div>
+</fieldset>
+
     </form>
     </body>
     <!-- Footer -->
