@@ -1,0 +1,11 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 16px;
+    background-color: #ffffff
+    }
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    } 
