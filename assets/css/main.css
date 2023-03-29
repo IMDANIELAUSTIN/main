@@ -40,7 +40,52 @@
     transition: all .5s ease 0s;
     }  
     
+anth-child(1) {
+width: 100px;
+anth-child(2) {
+width: 110px;
+}
+
+anth-child(3) {
+width: 100px;
+a:nth-child (4) {
+width: 160px;
+anth-child(5) {
+width: 120px;
+}
+
+nav .start-Work, anth-child(1):hover~.animation {
+width: 100px;
+left: 0;
+background-color: ##ff0000;
+}
     
+nav .start-Example, anth-child(2):hover~.animation {
+width: 100px;
+left: 210px;
+background-color: #3498db;
+nav .start-Example 2, anth-child(3):hover~.animation {
+width: 160px;
+left: 310px;
+background-color: #9b59b6;
+}
+
+}
+nav .start-contact, a:nth-child(4):hover~.animation {
+width: 120px;
+left: 470px;
+background-color: #e6722;
+}
+body {
+Dislike
+]
+font-size: 12px;
+font-family: sans-serif; background: #2c3e50;
+]
+span {
+color: #2BD6B4;
+
+ 
     <!---Footer--->
 .footer{
     background: #ffffff
