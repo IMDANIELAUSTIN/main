@@ -26,13 +26,41 @@ nav {
     left: 0;
     right: 0;
     z-index: 99;
-    background-color: var(--primary);
+    background-color: var(--dark);
     padding: 16px 32px;
     border-bottom: 4px solid var(--primary);
     }
     
 .hamburger {
+    display: block;
+    position: relative;
+    z-index: 1;
+    
+    user-select: none;
+    
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
     }
+    
+.hamburger span {
+    display: block;
+    width: ;
+    height: ;
+    margin-bottom: 4px;
+    postion: relative;
+    
+    background-color: ;
+    border-radius: 0px;
+    z-index: 1;
+    
+    transform-origi: 0 0;
+    
+    transition: 0.4s;
+    }
+        
     
 .menu {
         display: none;
