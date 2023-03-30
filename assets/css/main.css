@@ -1,18 +1,46 @@
-<---Navigation Bar--->
-.nav{
-    margin: 16px auto;
-    position: relative;
-    width: 580px;
-    height: 45px;
-    background: #000000
+:root {
+    --primary: #af211d;
+    --light: #fcfdff;
+    --dark: #000000;
+    font-family: 'Helvetica Now Display';
+}
 
-    overflow: hidden;
+<---Navigation Bar--->
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Now Display';
     
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: var(--primary);
+    padding: 16px 32px;
+    border-bottom: 4px solid var(--primary);
+    }
+    
+.hamburger {
+    }
+    
+.menu {
+        display: none;
     }
     
 .nav a{
     text-decoration: none;
-    color: #ffffff;
+    color: #fcfdff;
     text-align: center;
     text-transform: uppercase; 
     font-weight: bold;
@@ -23,14 +51,15 @@
 .nav ul{
     display: flex;
     list-style-type: none;
-    background-color: #ffffff
-    display: block;
+    background-color: #ffffff;
+    display: flex;
     float: left; 
     }
     
 .nav a:hover{
     background: #ff0000;
     color: #ffffff;
+    }
     
 .nav animation {
     position: absolute;
@@ -80,7 +109,7 @@ body {
 Dislike
 ]
 font-size: 12px;
-font-family: sans-serif; background: #2c3e50;
+font-family: 'Helvetica Now Display' , sans-serif; background: #2c3e50;
 ]
 span {
 color: #2BD6B4;
@@ -94,8 +123,8 @@ img {
     
 <---Footer--->
 .footer{
-    background: #ffffff
-    margin: 16px
+    background: #ffffff;
+    margin: 16px;
     }
     
 .footer a{
@@ -111,7 +140,7 @@ img {
     display: flex;
     list-style-type: none;
     padding: 16px;
-    background-color: #ffffff
+    background-color: #ffffff;
     display: block;
     float: left; 
     }
