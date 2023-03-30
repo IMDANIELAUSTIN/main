@@ -55,7 +55,7 @@
 <!-- Form -->
 <section>
 <body>
-    <h2>SEND ME A MESSAGE</h2>
+    <h1>SEND ME A MESSAGE</h1>
         
     <form>
         <label for="name">Name</label>
@@ -68,26 +68,28 @@
         <button type="submit">Send Message</button>
                 <br>
 
-<input type="checkbox" id="Business Inquiry" name="Business Inquiry" value="Business Inquiry">
+<input type="radio" id="Business Inquiry" name="Business Inquiry" value="Business Inquiry">
 <label for="Yes">This Is A Business Inquiry</label><br>
-
+	    
+<input type="radio" id="Personal Inquiry" name="Personal Inquiry" value="Personal Inquiry">
+<label for="Yes">This Is A Personal Inquiry</label><br>
+	    
         <fieldset>
-    <legend>Project Priority:</legend>
+		<b><legend>Project Priority:</legend></b>
 
     <div>
-      <input type="radio" id="No Work" name="No Work" value="No Work"
-             checked>
+      <input type="checkbox" id="No Work" name="No Work" value="No Work">
       <label for="No Work">I Don't Have Work Now But, I Want To Know Your Price.</label>
     </div>
 
     <div>
-      <input type="radio" id="Work Available" name="Work Available" value="Work Available">
-      <label for="dewey">I Have Work For You, Let's Work Immediately.</label>
+      <input type="checkbox" id="Work Available" name="Work Available" value="Work Available">
+      <label for="Work Available">I Have Work For You, Let's Work Immediately.</label>
     </div>
 
     <div>
-      <input type="radio" id="Maybe Work" name="Maybe Work" value="Maybe Work">
-      <label for="louie">I Don't Have Work Now But Will Soon.</label>
+      <input type="checkbox" id="Maybe Work" name="Maybe Work" value="Maybe Work">
+      <label for="Maybe Work">I Don't Have Work Now But Will Soon.</label>
     </div>
 </fieldset>
 
