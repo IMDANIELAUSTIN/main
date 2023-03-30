@@ -2,15 +2,16 @@
     --primary: #af211d;
     --light: #fcfdff;
     --dark: #000000;
-    font-family: 'Helvetica Now Display';
-}
+    font-family: 'Helvetica Now Display' , sans-serif;
+    }
 
 <---Navigation Bar--->
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica Now Display';
+    font-family: 'Helvetica Now Display' , sans-serif;
+    }
     
 .container {
     max-width: 1280px;
@@ -26,9 +27,9 @@ nav {
     left: 0;
     right: 0;
     z-index: 99;
-    background-color: var(--dark);
+    background-color: var(#000000);
     padding: 16px 32px;
-    border-bottom: 4px solid var(--primary);
+    border-bottom: 4px solid var(#af211d);
     }
     
 .hamburger {
@@ -60,8 +61,16 @@ nav {
     
     transition: 0.4s;
     }
-        
     
+.hamburger:hover span:nth-child(2) {
+    transform: translateX(10px);
+    background-color: ;
+    }
+       
+.hamburger.is-active span:nth-child(1) {
+    transform: translateX(0px, -2px); rotate(45deg);
+    }
+
 .menu {
         display: none;
     }
