@@ -86,14 +86,13 @@ span {
 color: #2BD6B4;
 
  
-    <---Main--->
+<---Main--->
 img {
-    width: 100%;
     height: auto;
-    max-width: 100%;
+    max-width: 100% auto;
 
     
-    <---Footer--->
+<---Footer--->
 .footer{
     background: #ffffff
     margin: 16px
