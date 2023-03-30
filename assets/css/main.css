@@ -1,4 +1,4 @@
-<!---NavigationBar--->
+<---Navigation Bar--->
 .nav{
     margin: 16px auto;
     position: relative;
@@ -86,7 +86,14 @@ span {
 color: #2BD6B4;
 
  
-    <!---Footer--->
+    <---Main--->
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
+    
+    <---Footer--->
 .footer{
     background: #ffffff
     margin: 16px
