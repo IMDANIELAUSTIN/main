@@ -26,9 +26,10 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 16px;
     z-index: 99;
     background-color: var(#000000);
-    padding: 16px 32px;
+    padding: 16px;
     border-bottom: 4px solid var(#af211d);
     }
     
