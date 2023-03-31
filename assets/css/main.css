@@ -8,8 +8,8 @@
 <---Navigation Bar--->
 
 div {
-    position: relative;
-    background-color: ;
+    position: relative ;
+    background-color: #fcfdff ;
     width: 700px;
 }
 
@@ -21,6 +21,13 @@ div {
     justify-content: space-between;
     }
 
+.header {
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+    }
+
 nav { 
     position: fixed;
     top: 16px;
@@ -28,7 +35,7 @@ nav {
     right: 0;
     bottom: 16px;
     z-index: 99;
-    background-color: var(#000000);
+    background-color: var(#fcfdff);
     padding: 16px;
     border-bottom: 4px solid var(#af211d);
     }
@@ -58,14 +65,14 @@ nav {
 .nav ul{
     display: flex;
     list-style-type: none;
-    background-color: #ffffff;
+    background-color: #fcfdff;
     display: flex;
     float: left; 
     }
     
 .nav a:hover{
-    background: #ff0000;
-    color: #ffffff;
+    background: #af211d;
+    color: #000000;
     }
 
 .hamburger {
@@ -109,6 +116,10 @@ nav {
 
 .menu {
         display: none;
+    }
+
+    html body {
+     padding-top: 32px;
     }
     
 <---Main--->
