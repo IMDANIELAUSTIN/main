@@ -102,13 +102,13 @@
     
 <body>
 
-img {
+    img {
     height: auto;
-    max-width: 100% auto;
+    max-width: 100%;
+}
 
-        </body>
+</body>
 
-<---Footer--->
 footer{
     background: #ffffff;
     margin: 16px;
