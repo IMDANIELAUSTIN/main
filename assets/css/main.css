@@ -18,9 +18,9 @@
     transition: all 0.3s;
     color: #ffffff;
 }
-.nav-content a:hover,
-.nav-icon:hover,
-.search-icon:hover {
+.nav-content a:hover;
+.nav-icon: hover;
+.search-icon: hover {
     opacity: 0.7;
 }
 .nav-links {
@@ -42,7 +42,7 @@
 .bar {
     height: 1px;
     width: 18px;
-    background: white;
+    background: none;
     transition: 0.5s;
 }
 .show .one {
