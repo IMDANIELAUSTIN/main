@@ -2,7 +2,6 @@
     font-family: 'Helvetica Now Display' , sans-serif;
     }
 
-<---Navigation Bar--->
 .nav-content {
     max-width: 1024px;
     margin: 0 auto;
@@ -18,8 +17,11 @@
     transition: all 0.3s;
     color: #ffffff;
 }
-.nav-content a:hover;
+
+.nav-content a hover;
+
 .nav-icon: hover;
+
 .search-icon: hover {
     opacity: 0.7;
 }
@@ -98,21 +100,21 @@
     }
 }
     
-<---Main--->
 <body>
 
 img {
     height: auto;
     max-width: 100% auto;
 
-    
+        </body>
+
 <---Footer--->
-.footer{
+footer{
     background: #ffffff;
     margin: 16px;
     }
     
-.footer a{
+footer a{
     text-decoration: none;
     color: #ffffff;
     text-align: center; 
@@ -121,7 +123,7 @@ img {
     font-size: 1.68pt
     }  
 
-.footer ul{
+footer ul{
     display: flex;
     list-style-type: none;
     padding: 16px;
@@ -130,13 +132,12 @@ img {
     float: left; 
     }
     
-.footer :hover{
+footer :hover{
     background: #ff0000;
     color: #ffffff;
     }
         
-    </div>
-    
-    </body>
-    
+        </body>
 
+    </div>
+   
