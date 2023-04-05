@@ -50,15 +50,15 @@
     transition: 0.5s;
 }
 .show .one {
-    transform: rotate(45deg) translateY(5.5px);
+    transform: rotate(45deg) translateY(7.5px);
 }
 .show .two {
-    transform: rotate(-45deg) translateY(-5.5px);
+    transform: rotate(-45deg) translateY(-7.5px);
 }
     
 @media (max-width: 768px) {
     .show {
-        background-color: #ff0000;
+        background-color: #ffffff;
     }
     .nav-links {
         position: fixed;
