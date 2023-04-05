@@ -18,7 +18,9 @@
     color: #000000;
 }
 
-.nav-content a hover;
+.nav-content a{
+    hover;
+}
 
 .nav-icon: hover;
 
@@ -33,7 +35,7 @@
 }
 
 .nav-icon {
-    display: none;
+    display: flex;
     grid-gap: 5px;
     grid-template-columns: auto;
     padding: 17px 0;
@@ -120,7 +122,7 @@ footer a{
     text-align: center; 
     padding: 16px;
     font-weight: bold;
-    font-size: 1.68pt
+    font-size: 16pt
     }  
 
 footer ul{
