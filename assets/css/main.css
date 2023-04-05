@@ -46,7 +46,7 @@
 .bar {
     height: 1px;
     width: 18px;
-    background: none;
+    background: #ff0000;
     transition: 0.5s;
 }
 .show .one {
