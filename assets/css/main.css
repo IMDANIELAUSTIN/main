@@ -44,7 +44,7 @@
     transition: all 0.3s;
 }
 .bar {
-    height: 1px;
+    height: 4px;
     width: 18px;
     background: #ff0000;
     transition: 0.5s;
@@ -58,7 +58,7 @@
     
 @media (max-width: 768px) {
     .show {
-        background-color: #000000;
+        background-color: #ffffff;
     }
     .nav-links {
         position: fixed;
@@ -66,7 +66,7 @@
         right: 0;
         height: 0;
         width: 100%;
-        background: #333333;
+        background: #000000;
         flex-direction: column;
         justify-content: flex-start;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
@@ -135,7 +135,7 @@ footer ul{
     }
     
 footer :hover{
-    background: #ffffff;
+    background: transparent;
     color: #ff0000;
     }
         
