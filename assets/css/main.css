@@ -28,7 +28,7 @@
     opacity: 0.7;
 }
 .nav-links {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,9 +44,9 @@
     transition: all 0.3s;
 }
 .bar {
-    height: 4px;
-    width: 18px;
-    background: #ff0000;
+    height: 4pt;
+    width: 16pt;
+    background: #000000;
     transition: 0.5s;
 }
 .show .one {
@@ -58,7 +58,7 @@
     
 @media (max-width: 768px) {
     .show {
-        background-color: #ffffff;
+        background-color: #ff0000;
     }
     .nav-links {
         position: fixed;
@@ -74,7 +74,7 @@
     }
     .show .nav-links {
         height: 100%;
-        background-color: #000000;
+        background-color: #ff0000;
     }
     .nav-links a {
         height: 0;
