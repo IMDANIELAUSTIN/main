@@ -50,10 +50,10 @@
     transition: 0.5s;
 }
 .show .one {
-    transform: rotate(45deg) translateY(7.5px);
+    transform: rotate(45deg) translateY(6.5px);
 }
 .show .two {
-    transform: rotate(-45deg) translateY(-7.5px);
+    transform: rotate(-45deg) translateY(-6.5px);
 }
     
 @media (max-width: 768px) {
@@ -102,16 +102,6 @@
         order: 3;
     }
 }
-    
-
-img {
-    width: auto;
-    height : auto;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-}
-
 
 footer{
     background: #ffffff;
@@ -122,7 +112,7 @@ footer a{
     text-decoration: none;
     color: #000000;
     text-align: center; 
-    padding: 16px;
+    padding: 8px;
     font-weight: bold;
     font-size: 16pt
     }  
