@@ -12,6 +12,7 @@
 .nav-content a {
     display: block;
     font-size: 16pt;
+    font-weight: bold;
     line-height: 30px;
     text-decoration: none;
     transition: all 0.3s;
@@ -35,10 +36,10 @@
 
 .nav-icon {
     display: none;
-    grid-gap: 5px;
+    grid-gap: 4px;
     grid-template-columns: auto;
     padding: 16px 0;
-    height: 8pt;
+    height: 8px;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -80,8 +81,9 @@
         width: 0;
         opacity: 0;
         overflow: hidden;
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-top: 48px;
+        margin-right: 48px;
+        margin-left: 48px;
         transition: opacity 1.5s, height 2s;
     }
     .show .nav-links a {
@@ -101,14 +103,15 @@
     }
 }
     
-<body>
 
-    img {
-    height: auto;
+img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
     max-width: 100%;
+    object-fit: contain;
 }
 
-</body>
 
 footer{
     background: #ffffff;
@@ -137,7 +140,3 @@ footer :hover{
     background: transparent;
     color: #ff0000;
     }
-        
-        </body>
-
-    </div>
