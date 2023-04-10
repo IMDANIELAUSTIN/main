@@ -22,6 +22,11 @@
 .nav-content a: hover {
 }
 
+.logo {
+    position: relative;
+    margin: 2px auto;
+    }
+
 .nav-icon: hover;
 
 .search-icon: hover {
