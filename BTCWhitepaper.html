@@ -42,9 +42,7 @@
     top: 65px;
 ">
 									
-							<a href="/CVresume">EDUCATION</a>
-							<a href="/Example">EXAMPLE PAGE</a>
-							<a href="/Example 2">EXAMPLE PAGE #2</a>
+							<a href="/CVresume">ABOUT ME</a>
 							<a href="/BTCWhitepaper">BITCOIN WHITEPAPER</a>
 							<a href="/Contact">CONTACT</a>
 						
@@ -56,10 +54,11 @@
 				
 				
 <!-- Main -->
+<main>
+<div>
   <h1>Bitcoin: A Peer-to-Peer Electronic Cash System</h1>
-  <h4>BY SATOSHI NAKAMOTO | 10.31.2008</h4><br>
+  <p>BY SATOSHI NAKAMOTO | 10.31.2008</p>
 	
-	</div>
 	<div id="CONTENT" class="doc-content"><h2 id="abstract"><a href="#abstract">Abstract</a></h2>
 
 <p>A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.</p>
@@ -161,18 +160,18 @@
 
 <p>The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows<sup><a href="#fn8" id="ref8">[8]</a></sup>:</p>
 
-<p>$$
+<pre>$$
     \begin{eqnarray*}
     \large p &=& \text{ probability an honest node finds the next block}\\
     \large q &=& \text{ probability the attacker finds the next block}\\
     \large q_z &=& \text{ probability the attacker will ever catch up from $z$ blocks behind}
-    \end{eqnarray*}$$</p>
+    \end{eqnarray*}$$</pre>
 
-<p>$$
+<pre>$$
     \large q_z = \begin{Bmatrix}
     1 & \textit{if}\; p \leq q\\
     (q/p)^z & \textit{if}\; p > q
-    \end{Bmatrix}$$</p>
+    \end{Bmatrix}$$</pre>
 
 <p>Given our assumption that $p \gt q$, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.</p>
 
@@ -182,7 +181,7 @@
 
 <p>The recipient waits until the transaction has been added to a block and $z$ blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:</p>
 
-<p>$$\large \lambda = z \frac qp$$</p>
+<pre>$$\large \lambda = z \frac qp$$</pre>
 
 <p>To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:</p>
 
@@ -195,9 +194,9 @@
 
 <p>Rearranging to avoid summing the infinite tail of the distribution...</p>
 
-<p>$$
+<pre>$$
     \large 1 - \sum_{k=0}^{z} \frac{\lambda^k e^{-\lambda}}{k!}
-    \left ( 1-(q/p)^{(z-k)} \right )$$</p>
+    \left ( 1-(q/p)^{(z-k)} \right )$$</pre>
 
 <p>Converting to C code...</p>
 
