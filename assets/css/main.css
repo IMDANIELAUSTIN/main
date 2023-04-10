@@ -6,8 +6,10 @@
     }
 
 hr {
-    color: #ff0000;
+    color: transparent;
+    background-color: #ff0000;
     height: 4pt;
+    border: 0pt;
 }
 
 a:link, a:visited {
@@ -56,6 +58,12 @@ a:link, a:visited {
 
 
 .nav-links a:hover{
+    background: transparent;
+    color: #ff0000;
+    opacity: 100%;
+    }
+
+.nav-links a:active{
     background: transparent;
     color: #ff0000;
     opacity: 100%;
@@ -171,6 +179,7 @@ article :hover{
 footer{
     background: #ffffff;
     margin: 16px;
+    text-align: center;
     }
     
 footer a{
