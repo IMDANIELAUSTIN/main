@@ -1,9 +1,23 @@
 :root {
-    font-family: 'Helvetica Now Display' , sans-serif;
+    font-family: 'Helvetica Neue' , "Helvetica" , sans-serif;
     font-weight: bold;
     font-size: 16pt;
     text-decoration-color: #000000;
     }
+
+h1 , h2 , ul, li {
+    color: #000000;
+    font-weight: bold;
+    font-size: ;
+    leading: 1.2pt;
+}
+
+h3, h4, p {
+    color: #000000;
+    font-weight: normal;
+    font-size: 16pt;
+    leading: 1.2pt;
+}
 
 hr {
     color: transparent;
@@ -12,7 +26,7 @@ hr {
     border: 0pt;
 }
 
-a:link, a:visited {
+a:link , a:visited {
     background-color: #transparent;
     color: #000000;
     display: inline-block;
@@ -20,9 +34,19 @@ a:link, a:visited {
     text-align: left;
 }
 
+a:visited {
+    background-color: transparent;
+    color: #ff0000; 
+}
+
+a:active, a:hover {
+    background-color: transparent;
+    color: #ff0000;
+    
+}
+
 .logo {
     position: block;
-
     margin: 2px auto;
     }
 
