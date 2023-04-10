@@ -5,6 +5,13 @@
     text-decoration-color: #000000;
     
     }
+a:link, a:visited {
+    background-color: #transparent;
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+}
 
 .nav-content {
     max-width: 1024px;
@@ -23,7 +30,7 @@
     color: #000000;
 }
 
-.nav-content a: hover {
+.nav-content a:hover {
 }
 
 .logo {
@@ -31,11 +38,13 @@
     margin: 2px auto;
     }
 
-.nav-icon: hover;
+.nav-icon :hover{
+    background: transparent;
+    opacity: 48%;
+    }
 
-.search-icon: hover {
-    opacity: 0.7;
-}
+
+
 .nav-links {
     width: 100%;
     display: flex;
@@ -68,12 +77,24 @@
     transform: rotate(-45deg) translateY(-6.5px);
 }
 
-.article .link {
+.article {
     color: #000000;
     cursor: pointer;
+    margin: 0 auto;
+    border-radius: 0px;
+    border: 4px #000000;
+}
+
+.article .a{
+    text-decoration: none;
     
 }
-    
+
+article :hover{
+    background: transparent;
+    color: #ff0000;
+    }
+
 @media (max-width: 768px) {
     .show {
         background-color: #ffffff;
@@ -129,13 +150,6 @@
 
 hr {
     color: #ff0000;
-}
-
-article {
-    display: block;
-    text-decoration-color: #000000;
-    color: #ff0000;
-    backgrund-color: #ffffff;
 }
 
 footer{
