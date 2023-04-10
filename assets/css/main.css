@@ -21,7 +21,8 @@ a:link, a:visited {
 }
 
 .logo {
-    position: relative;
+    position: block;
+
     margin: 2px auto;
     }
 
@@ -104,10 +105,14 @@ a:link, a:visited {
     margin: 0 auto;
     border-radius: 0px;
     border: 4px #000000;
+    text-align: center;
+    position: relative;
 }
 
 .article .a{
     text-decoration: none;
+    text-align: center;
+    postition: relative;
     
 }
 
@@ -185,7 +190,7 @@ footer{
 footer a{
     text-decoration: none;
     color: #000000;
-    text-align: center; 
+    text-align: middle; 
     padding: 8px;
     font-weight: bold;
     font-size: 16pt
