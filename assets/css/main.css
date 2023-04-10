@@ -31,16 +31,12 @@ a:link, a:visited {
 }
 
 .nav-content a:hover {
+    color: #ffffff;
 }
 
 .logo {
     position: relative;
     margin: 2px auto;
-    }
-
-.nav-icon :hover{
-    background: transparent;
-    opacity: 48%;
     }
 
 
@@ -51,9 +47,16 @@ a:link, a:visited {
     flex-direction: row;
     justify-content: space-around;
     background: #ffffff;
-    background-color: #fffff;
+    background-color: #ffffff;
 
 }
+
+
+.nav-links a:hover{
+    background: transparent;
+    opacity: 48%;
+    }
+
 
 .nav-icon {
     display: none;
@@ -64,6 +67,12 @@ a:link, a:visited {
     cursor: pointer;
     transition: all 0.3s;
 }
+
+.nav-icon :hover{
+    background: transparent;
+    opacity: 48%;
+    }
+
 .bar {
     height: 4pt;
     width: 16pt;
