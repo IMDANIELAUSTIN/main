@@ -1,5 +1,9 @@
 :root {
     font-family: 'Helvetica Now Display' , sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration-color: #000000;
+    
     }
 
 .nav-content {
@@ -37,6 +41,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background: #ffffff;
+    background-color: #fffff;
+
 }
 
 .nav-icon {
@@ -60,6 +67,12 @@
 .show .two {
     transform: rotate(-45deg) translateY(-6.5px);
 }
+
+.article .link {
+    color: #000000;
+    cursor: pointer;
+    
+}
     
 @media (max-width: 768px) {
     .show {
@@ -72,6 +85,8 @@
         height: 0;
         width: 100%;
         background: #000000;
+        background-color: #ff0000;
+        opacity: 100%;
         flex-direction: column;
         justify-content: flex-start;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
@@ -80,6 +95,10 @@
     .show .nav-links {
         height: 100%;
         background-color: #ff0000;
+        opacity: 100%;
+        transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
+            background-color 0.3s;
+
     }
     .nav-links a {
         height: 0;
@@ -106,6 +125,17 @@
     .search-icon {
         order: 3;
     }
+}
+
+hr {
+    color: #ff0000;
+}
+
+article {
+    display: block;
+    text-decoration-color: #000000;
+    color: #ff0000;
+    backgrund-color: #ffffff;
 }
 
 footer{
