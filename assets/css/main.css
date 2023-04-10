@@ -3,8 +3,13 @@
     font-weight: bold;
     font-size: 16pt;
     text-decoration-color: #000000;
-    
     }
+
+hr {
+    color: #ff0000;
+    height: 4pt;
+}
+
 a:link, a:visited {
     background-color: #transparent;
     color: #000000;
@@ -12,6 +17,11 @@ a:link, a:visited {
     text-decoration: none;
     text-align: left;
 }
+
+.logo {
+    position: relative;
+    margin: 2px auto;
+    }
 
 .nav-content {
     max-width: 1024px;
@@ -31,22 +41,15 @@ a:link, a:visited {
 }
 
 .nav-content a:hover {
-    color: #ffffff;
+    color: transparent;
 }
-
-.logo {
-    position: relative;
-    margin: 2px auto;
-    }
-
-
 
 .nav-links {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: #ffffff;
+    background: transparent;
     background-color: #ffffff;
 
 }
@@ -54,7 +57,8 @@ a:link, a:visited {
 
 .nav-links a:hover{
     background: transparent;
-    opacity: 48%;
+    color: #ff0000;
+    opacity: 100%;
     }
 
 
@@ -122,6 +126,13 @@ article :hover{
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
     }
+    
+    .nav-links a:hover{
+    background: transparent;
+    color: #ffffff;
+    opacity: 100%;
+    }
+    
     .show .nav-links {
         height: 100%;
         background-color: #ff0000;
@@ -152,14 +163,10 @@ article :hover{
     .logo {
         order: 2;
     }
-    .search-icon {
-        order: 3;
-    }
+   
 }
 
-hr {
-    color: #ff0000;
-}
+
 
 footer{
     background: #ffffff;
