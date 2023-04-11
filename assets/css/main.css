@@ -46,6 +46,10 @@ a:link , a:visited {
     text-align: left;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
 a:visited {
     background-color: transparent;
     color: #ff0000; 
