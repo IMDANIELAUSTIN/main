@@ -126,12 +126,7 @@ a:active, a:hover {
     opacity: 48%;
     }
 
-.bar {
-    height: 4pt;
-    width: 16pt;
-    background: #000000;
-    transition: 0.5s;
-}
+
 
 .show .one {
     transform: rotate(45deg) translateY(6.5px);
@@ -210,6 +205,21 @@ footer :hover{
         background-color: #ffffff;
     }
 
+.bar {
+    height: 4pt;
+    width: 16pt;
+    background: #000000;
+    transition: 0.5s;
+}
+
+.show .one {
+    transform: rotate(45deg) translateY(5pt);
+}
+
+.show .two {
+    transform: rotate(-45deg) translateY(-5pt);
+}
+    
 .logo {
     position: block;
     margin: 2px auto;
@@ -388,6 +398,22 @@ footer a:hover{
     .show {
         background-color: #ffffff;
     }
+
+.bar {
+    height: 4pt;
+    width: 16pt;
+    background: #000000;
+    transition: 0.5s;
+}
+
+.show .one {
+    transform: rotate(45deg) translateY(5pt);
+}
+
+.show .two {
+    transform: rotate(-45deg) translateY(-5pt);
+}
+   
     
 h1 , h2 , ul, ol, li, mono {
     color: #000000;
@@ -546,6 +572,22 @@ footer a:hover{
     .show {
         background-color: #ffffff;
     }
+
+.bar {
+    height: 3pt;
+    width: 12pt;
+    background: #000000;
+    transition: 0.5s;
+}
+
+.show .one {
+    transform: rotate(45deg) translateY(4pt);
+}
+
+.show .two {
+    transform: rotate(-45deg) translateY(-4pt);
+}
+   
     
 h1 , h2 , ul, ol, li, {
     color: #000000;
@@ -705,6 +747,21 @@ footer a:hover{
     .show {
         background-color: #ffffff;
     }
+
+.bar {
+    height: 3pt;
+    width: 12pt;
+    background: #000000;
+    transition: 0.5s;
+}
+
+.show .one {
+    transform: rotate(45deg) translateY(4pt);
+}
+
+.show .two {
+    transform: rotate(-45deg) translateY(-4pt);
+}
     
 h1 , h2 , ul, ol, li, mono {
     color: #000000;
@@ -754,7 +811,8 @@ pre {
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
     }
-    
+
+
     .nav-links a {
         height: 0;
         width: 0;
