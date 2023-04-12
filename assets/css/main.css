@@ -48,16 +48,9 @@ a:link , a:visited {
     text-align: left;
 }
 
-
-a:visited {
-    background-color: transparent;
-    color: #ffffff; 
-}
-
 a:active, a:hover {
     background-color: transparent;
     color: #ff0000;
-    
 }
 
 img {
@@ -211,7 +204,7 @@ footer :hover{
 .bar {
     height: 4pt;
     width: 16pt;
-    background: #ff0000;
+    background: #ffffff;
     transition: 0.5s;
 }
 
@@ -255,7 +248,7 @@ pre {
         height: 0;
         width: 100%;
         background: #ffffff;
-        background-color: #ffffff;
+        background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
         justify-content: flex-start;
@@ -265,7 +258,7 @@ pre {
     
     .nav-links a:hover{
     background: transparent;
-    color: #1e1e1e;
+    color: #ff0000;
     opacity: 100%;
     }
     
@@ -398,14 +391,14 @@ footer a:hover{
 
 
 @media (max-width: 768px) {
-    .show {
+   .show {
         background-color: #1e1e1e;
     }
 
 .bar {
     height: 4pt;
     width: 16pt;
-    background: #ff0000;
+    background: #ffffff;
     transition: 0.5s;
 }
 
@@ -416,29 +409,32 @@ footer a:hover{
 .show .two {
     transform: rotate(-45deg) translateY(-5pt);
 }
-   
+    
+.logo {
+    position: block;
+    margin: 2px auto;
+    }
     
 h1 , h2 , ul, ol, li, mono {
-    color: #ffff;
+    color: ffff;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 16pt;
     leading: 1.2pt;
 }
 
 h3, h4, p {
     color: #ffffff;
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 16pt;
     leading: 1.2pt;
 }
-    
+
 pre {
     color: #000000; 
     font-weight: normal;
     font-size: 8pt;
     leading: 2pt;
 }
-
     .nav-links {
         position: fixed;
         top: 44px;
@@ -446,7 +442,7 @@ pre {
         height: 0;
         width: 100%;
         background: #ffffff;
-        background-color: #ff0000;
+        background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
         justify-content: flex-start;
@@ -456,7 +452,7 @@ pre {
     
     .nav-links a:hover{
     background: transparent;
-    color: #ffffff;
+    color: #ff0000;
     opacity: 100%;
     }
     
@@ -494,13 +490,23 @@ pre {
         order: 3;
         display: grid;
     }
-
+    
+.tiles {
+    align-content: middle;
+}
+    
+.tiles a{
+    align-content: middle;
+}
+    
 .article {
-    color: #ffffff;
+    display: block;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
-    border: 4px #000000;
+    border: 4pt #000000;
+    align-content: middle;
     text-align: center;
     position: relative;
 }
@@ -522,20 +528,27 @@ pre {
     width: 100%;
     max-width: 100% ;
     align-content: center;
-    text-align: center;
+    text-align: middle;
 }
 
 .tiles .img {
-    height: 50;
-    max-height: 50;
-    width: auto;
-    max-width: auto;
+    display: inlline-block;
+    height: 100;
+    max-height: 100;
+    width: 100%;
+    max-width: 100%;
     object-fit: contain;
     text-align: middle;
 }
 
+.tiles .a{
+    text-align: middle;
+    align-content: middle;
+    
+}
+
 footer{
-    background: 1e1e1ef;
+    background: #1e1e1e;
     margin: auto;
     text-align: center;
     }
@@ -546,7 +559,7 @@ footer a{
     text-align: center; 
     padding: 8px;
     font-weight: bold;
-    font-size: 12pt
+    font-size: 16pt
     }  
 
 footer ul{
@@ -577,42 +590,45 @@ footer a:hover{
     }
 
 .bar {
-    height: 3pt;
-    width: 12pt;
-    background: #ff0000;
+    height: 4pt;
+    width: 16pt;
+    background: #ffffff;
     transition: 0.5s;
 }
 
 .show .one {
-    transform: rotate(45deg) translateY(4pt);
+    transform: rotate(45deg) translateY(5pt);
 }
 
 .show .two {
-    transform: rotate(-45deg) translateY(-4pt);
+    transform: rotate(-45deg) translateY(-5pt);
 }
-   
     
-h1 , h2 , ul, ol, li, {
-    color: #ffffff;
+.logo {
+    position: block;
+    margin: 2px auto;
+    }
+    
+h1 , h2 , ul, ol, li, mono {
+    color: ffff;
     font-weight: bold;
-    font-size: 9.5pt;
+    font-size: 16pt;
     leading: 1.2pt;
 }
 
 h3, h4, p {
     color: #ffffff;
     font-weight: normal;
-    font-size: 12pt;
+    font-size: 16pt;
     leading: 1.2pt;
 }
-    
+
 pre {
-    color: #ffffff; 
+    color: #000000; 
     font-weight: normal;
     font-size: 8pt;
     leading: 2pt;
 }
-
     .nav-links {
         position: fixed;
         top: 44px;
@@ -630,7 +646,7 @@ pre {
     
     .nav-links a:hover{
     background: transparent;
-    color: #ffffff;
+    color: #ff0000;
     opacity: 100%;
     }
     
@@ -668,13 +684,23 @@ pre {
         order: 3;
         display: grid;
     }
-
+    
+.tiles {
+    align-content: middle;
+}
+    
+.tiles a{
+    align-content: middle;
+}
+    
 .article {
-    color: #ffffff;
+    display: block;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
-    border: 4px #000000;
+    border: 4pt #000000;
+    align-content: middle;
     text-align: center;
     position: relative;
 }
@@ -696,16 +722,23 @@ pre {
     width: 100%;
     max-width: 100% ;
     align-content: center;
-    text-align: center;
+    text-align: middle;
 }
 
 .tiles .img {
-    height: 50;
-    max-height: 50 auto;
-    width: 50;
-    max-width: 50 auto;
+    display: inlline-block;
+    height: 100;
+    max-height: 100;
+    width: 100%;
+    max-width: 100%;
     object-fit: contain;
     text-align: middle;
+}
+
+.tiles .a{
+    text-align: middle;
+    align-content: middle;
+    
 }
 
 footer{
@@ -720,7 +753,7 @@ footer a{
     text-align: center; 
     padding: 8px;
     font-weight: bold;
-    font-size: 12pt
+    font-size: 16pt
     }  
 
 footer ul{
@@ -752,40 +785,44 @@ footer a:hover{
     }
 
 .bar {
-    height: 3pt;
-    width: 12pt;
-    color: #ffffff;
-    background: #ff0000;
+    height: 4pt;
+    width: 16pt;
+    background: #ffffff;
     transition: 0.5s;
 }
 
 .show .one {
-    transform: rotate(45deg) translateY(4pt);
+    transform: rotate(45deg) translateY(5pt);
 }
 
 .show .two {
-    transform: rotate(-45deg) translateY(-4pt);
+    transform: rotate(-45deg) translateY(-5pt);
 }
     
+.logo {
+    position: block;
+    margin: 2px auto;
+    }
+    
 h1 , h2 , ul, ol, li, mono {
-    color: #ffffff;
+    color: ffff;
     font-weight: bold;
-    font-size: 9.5pt;
+    font-size: 16pt;
     leading: 1.2pt;
 }
 
 h3, h4, p {
     color: #ffffff;
     font-weight: normal;
-    font-size: 9.5pt;
+    font-size: 16pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #ffffff; 
+    color: #000000; 
     font-weight: normal;
-    font-size: 9.5pt;
-    leading: 2.4pt;
+    font-size: 8pt;
+    leading: 2pt;
 }
     .nav-links {
         position: fixed;
@@ -793,7 +830,7 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #1e1e1e;
+        background: #ffffff;
         background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
@@ -804,7 +841,7 @@ pre {
     
     .nav-links a:hover{
     background: transparent;
-    color: #1e1e1e;
+    color: #ff0000;
     opacity: 100%;
     }
     
@@ -815,8 +852,7 @@ pre {
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
     }
-
-
+    
     .nav-links a {
         height: 0;
         width: 0;
@@ -843,13 +879,23 @@ pre {
         order: 3;
         display: grid;
     }
-
+    
+.tiles {
+    align-content: middle;
+}
+    
+.tiles a{
+    align-content: middle;
+}
+    
 .article {
-    color: #ffffff;
+    display: block;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
-    border: 4px #ffffff;
+    border: 4pt #000000;
+    align-content: middle;
     text-align: center;
     position: relative;
 }
@@ -866,7 +912,7 @@ pre {
     color: #ff0000;
     }
 
-.article .img {
+.article :img {
     height: auto;
     width: 100%;
     max-width: 100% ;
@@ -875,12 +921,19 @@ pre {
 }
 
 .tiles .img {
-    height: 50;
-    max-height: 50;
-    width: 50;
-    max-width: 50;
+    display: inlline-block;
+    height: 100;
+    max-height: 100;
+    width: 100%;
+    max-width: 100%;
     object-fit: contain;
     text-align: middle;
+}
+
+.tiles .a{
+    text-align: middle;
+    align-content: middle;
+    
 }
 
 footer{
@@ -891,11 +944,11 @@ footer{
     
 footer a{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     text-align: center; 
-    padding: auto;
+    padding: 8px;
     font-weight: bold;
-    font-size: 9.5pt
+    font-size: 16pt
     }  
 
 footer ul{
@@ -905,23 +958,16 @@ footer ul{
     padding: auto;
     background-color: #ffffff;
     display: block;
-    float: center; 
+    float: left; 
     }
 
 
-footer a:active {
+footer a:active{
     background: transparent;
     text-color: #ffffff;
     }
     
-footer a:hover {
+footer a:hover{
     background: transparent;
-    text-color: #ffffff;
+    text-color: #ff0000;
     }
-    
-footer a:visited {
-    background: transparent;
-    text-color: #ffffff;
-    }
-
-}
