@@ -2,9 +2,7 @@
     font-family: 'Helvetica Neue' , "Helvetica" , sans-serif;
     font-weight: bold;
     font-size: 16pt;
-    color: #ffffff;
-    text-decoration-color: #ffffff;
-    background: #1e1e1e;
+    text-decoration-color: #000000;
     }
 
 .logo {
@@ -13,21 +11,21 @@
     } 
 
 h1 , h2 , ul, ol, li, {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     font-size: ;
     leading: 1.2pt;
 }
 
 h3, h4, p {
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
     font-size: 16pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #ffffff; 
+    color: #000000; 
     font-weight: normal;
     font-size: 8pt;
     leading: 2pt;
@@ -42,7 +40,7 @@ hr {
 
 a:link , a:visited {
     background-color: #transparent;
-    color: #ffffff;
+    color: #000000;
     display: inline-block;
     text-decoration: none;
     text-align: left;
@@ -52,10 +50,9 @@ img {
   height: auto;
   max-width: 100%;
 }
-
 a:visited {
     background-color: transparent;
-    color: #ffffff; 
+    color: #ff0000; 
 }
 
 a:active, a:hover {
@@ -83,7 +80,7 @@ a:active, a:hover {
     line-height: 30px;
     text-decoration: none;
     transition: all 0.3s;
-    color: #ffffff;
+    color: #000000;
 }
 
 .nav-content a:hover {
@@ -96,7 +93,7 @@ a:active, a:hover {
     flex-direction: row;
     justify-content: space-around;
     background: transparent;
-    background-color: #1e1e1e;
+    background-color: #ffffff;
 
 }
 
@@ -140,11 +137,11 @@ a:active, a:hover {
 }
 
 .article {
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
-    border: 4pt #ffffff;
+    border: 4pt #000000;
     text-align: center;
     position: relative;
 }
@@ -175,7 +172,7 @@ a:active, a:hover {
 }
 
 footer {
-    background: #1e1e1e;
+    background: #ffffff;
     margin: 16px;
     text-align: center;
     }
@@ -205,13 +202,13 @@ footer :hover{
 
 @media (max-width: 980px) {
     .show {
-        background-color: #1e1e1e;
+        background-color: #ffffff;
     }
 
 .bar {
     height: 4pt;
     width: 16pt;
-    background: #ff0000;
+    background: #000000;
     transition: 0.5s;
 }
 
@@ -229,7 +226,7 @@ footer :hover{
     }
     
 h1 , h2 , ul, ol, li, mono {
-    color: ffff;
+    color: #000000;
     font-weight: bold;
     font-size: 16pt;
     leading: 1.2pt;
@@ -254,7 +251,7 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #ffffff;
+        background: #000000;
         background-color: #ff0000;
         opacity: 100%;
         flex-direction: column;
@@ -265,7 +262,7 @@ pre {
     
     .nav-links a:hover{
     background: transparent;
-    color: #1e1e1e;
+    color: #ffffff;
     opacity: 100%;
     }
     
@@ -361,7 +358,7 @@ pre {
 }
 
 footer{
-    background: #1e1e1e;
+    background: #ffffff;
     margin: auto;
     text-align: center;
     }
@@ -388,7 +385,7 @@ footer ul{
 
 footer a:active{
     background: transparent;
-    text-color: #ffffff;
+    text-color: #000000;
     }
     
 footer a:hover{
@@ -399,13 +396,13 @@ footer a:hover{
 
 @media (max-width: 768px) {
     .show {
-        background-color: #1e1e1e;
+        background-color: #ffffff;
     }
 
 .bar {
     height: 4pt;
     width: 16pt;
-    background: #ff0000;
+    background: #000000;
     transition: 0.5s;
 }
 
@@ -419,7 +416,7 @@ footer a:hover{
    
     
 h1 , h2 , ul, ol, li, mono {
-    color: #ffff;
+    color: #000000;
     font-weight: bold;
     font-size: 12pt;
     leading: 1.2pt;
@@ -445,7 +442,7 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #ffffff;
+        background: #000000;
         background-color: #ff0000;
         opacity: 100%;
         flex-direction: column;
@@ -462,7 +459,7 @@ pre {
     
     .show .nav-links {
         height: 100%;
-        background-color: #1e1e1e;
+        background-color: #ff0000;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -496,7 +493,7 @@ pre {
     }
 
 .article {
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
@@ -535,7 +532,7 @@ pre {
 }
 
 footer{
-    background: 1e1e1ef;
+    background: #ffffff;
     margin: auto;
     text-align: center;
     }
@@ -562,7 +559,7 @@ footer ul{
 
 footer a:active{
     background: transparent;
-    text-color: #ffffff;
+    text-color: #000000;
     }
     
 footer a:hover{
@@ -573,13 +570,13 @@ footer a:hover{
 
 @media (max-width: 480px) {
     .show {
-        background-color: #1e1e1e;
+        background-color: #ffffff;
     }
 
 .bar {
     height: 3pt;
     width: 12pt;
-    background: #ff0000;
+    background: #000000;
     transition: 0.5s;
 }
 
@@ -593,21 +590,21 @@ footer a:hover{
    
     
 h1 , h2 , ul, ol, li, {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     font-size: 9.5pt;
     leading: 1.2pt;
 }
 
 h3, h4, p {
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
     font-size: 12pt;
     leading: 1.2pt;
 }
     
 pre {
-    color: #ffffff; 
+    color: #000000; 
     font-weight: normal;
     font-size: 8pt;
     leading: 2pt;
@@ -619,8 +616,8 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #ffffff;
-        background-color: #1e1e1e;
+        background: #000000;
+        background-color: #ff0000;
         opacity: 100%;
         flex-direction: column;
         justify-content: flex-start;
@@ -636,7 +633,7 @@ pre {
     
     .show .nav-links {
         height: 100%;
-        background-color: #1e1e1e;
+        background-color: #ff0000;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -670,7 +667,7 @@ pre {
     }
 
 .article {
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
@@ -709,7 +706,7 @@ pre {
 }
 
 footer{
-    background: #1e1e1e;
+    background: #ffffff;
     margin: auto;
     text-align: center;
     }
@@ -736,7 +733,7 @@ footer ul{
 
 footer a:active{
     background: transparent;
-    text-color: #ffffff;
+    text-color: #000000;
     }
     
 footer a:hover{
@@ -748,14 +745,13 @@ footer a:hover{
 
 @media (max-width: 320px) {
     .show {
-        background-color: #1e1e1e;
+        background-color: #ffffff;
     }
 
 .bar {
     height: 3pt;
     width: 12pt;
-    color: #ffffff;
-    background: #ff0000;
+    background: #000000;
     transition: 0.5s;
 }
 
@@ -768,21 +764,21 @@ footer a:hover{
 }
     
 h1 , h2 , ul, ol, li, mono {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     font-size: 9.5pt;
     leading: 1.2pt;
 }
 
 h3, h4, p {
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
     font-size: 9.5pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #ffffff; 
+    color: #000000; 
     font-weight: normal;
     font-size: 9.5pt;
     leading: 2.4pt;
@@ -793,8 +789,8 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #1e1e1e;
-        background-color: #1e1e1e;
+        background: #000000;
+        background-color: #ff0000;
         opacity: 100%;
         flex-direction: column;
         justify-content: flex-start;
@@ -804,13 +800,13 @@ pre {
     
     .nav-links a:hover{
     background: transparent;
-    color: #1e1e1e;
+    color: #ffffff;
     opacity: 100%;
     }
     
     .show .nav-links {
         height: 100%;
-        background-color: #1e1e1e;
+        background-color: #ff0000;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -845,11 +841,11 @@ pre {
     }
 
 .article {
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 0px;
-    border: 4px #ffffff;
+    border: 4px #000000;
     text-align: center;
     position: relative;
 }
@@ -884,14 +880,14 @@ pre {
 }
 
 footer{
-    background: #1e1e1e;
+    background: #ffffff;
     margin: auto;
     text-align: center;
     }
     
 footer a{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     text-align: center; 
     padding: auto;
     font-weight: bold;
@@ -909,19 +905,14 @@ footer ul{
     }
 
 
-footer a:active {
+footer a:active{
     background: transparent;
-    text-color: #ffffff;
+    text-color: #000000;
     }
     
-footer a:hover {
+footer a:hover{
     background: transparent;
-    text-color: #ffffff;
-    }
-    
-footer a:visited {
-    background: transparent;
-    text-color: #ffffff;
+    text-color: #ff0000;
     }
 
 }
