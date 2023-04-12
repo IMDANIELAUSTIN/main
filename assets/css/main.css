@@ -41,17 +41,13 @@ hr {
 }
 
 a:link , a:visited {
-    background-color: #transparent;
+    background-color: transparent;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
     text-align: left;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
-}
 
 a:visited {
     background-color: transparent;
@@ -62,6 +58,11 @@ a:active, a:hover {
     background-color: transparent;
     color: #ff0000;
     
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
 
 .logo {
@@ -97,7 +98,6 @@ a:active, a:hover {
     justify-content: space-around;
     background: transparent;
     background-color: #1e1e1e;
-
 }
 
 
@@ -236,7 +236,7 @@ h1 , h2 , ul, ol, li, mono {
 }
 
 h3, h4, p {
-    color: #000000;
+    color: #ffffff;
     font-weight: normal;
     font-size: 16pt;
     leading: 1.2pt;
@@ -255,7 +255,7 @@ pre {
         height: 0;
         width: 100%;
         background: #ffffff;
-        background-color: #ff0000;
+        background-color: #ffffff;
         opacity: 100%;
         flex-direction: column;
         justify-content: flex-start;
@@ -271,7 +271,7 @@ pre {
     
     .show .nav-links {
         height: 100%;
-        background-color: #ff0000;
+        background-color: #1e1e1e;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -426,7 +426,7 @@ h1 , h2 , ul, ol, li, mono {
 }
 
 h3, h4, p {
-    color: #000000;
+    color: #ffffff;
     font-weight: normal;
     font-size: 12pt;
     leading: 1.2pt;
