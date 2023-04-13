@@ -12,28 +12,33 @@
     margin: 2px auto;
     } 
 
-h1 , h2 , ul, ol, li, {
+h1 , h2 , ul, ol, li, head, heading {
     color: #ffffff;
     font-weight: bold;
-    font-size: ;
+    font-size: 16pt ;
     leading: 1.2pt;
 }
 
-h3, h4, p {
+h3, h4, p, body {
     color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     leading: 1.2pt;
 }
 
 pre {
     color: #ffffff; 
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 12pt;
     leading: 2pt;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-hr {
+ul, hr {
     color: transparent;
     background-color: #ff0000;
     height: 4pt;
@@ -221,25 +226,30 @@ footer :hover{
     margin: 2px auto;
     }
     
-h1 , h2 , ul, ol, li, mono {
-    color: ffff;
+h1 , h2 , ul, ol, li, head, heading, mono {
+    color: #ffffff;
     font-weight: bold;
     font-size: 16pt;
     leading: 1.2pt;
 }
 
-h3, h4, p {
+h3, h4, p, body {
     color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #000000; 
+    color: #ffffff; 
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 12pt;
     leading: 2pt;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
     .nav-links {
         position: fixed;
@@ -338,7 +348,7 @@ pre {
 }
 
 .tiles .img {
-    display: inlline-block;
+    display: block;
     height: 100;
     max-height: 100;
     width: 100%;
@@ -415,25 +425,30 @@ footer a:hover{
     margin: 2px auto;
     }
     
-h1 , h2 , ul, ol, li, mono {
-    color: ffff;
+h1 , h2 , ul, ol, li, , head, heading, mono {
+    color: #ffffff;
     font-weight: bold;
     font-size: 16pt;
     leading: 1.2pt;
 }
 
-h3, h4, p {
+h3, h4, p , body {
     color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #000000; 
+    color: #ffffff; 
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 12pt;
     leading: 2pt;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
     .nav-links {
         position: fixed;
@@ -619,15 +634,20 @@ h1 , h2 , ul, ol, li, mono {
 h3, h4, p {
     color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #000000; 
+    color: #ffffff; 
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 12pt;
     leading: 2pt;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
     .nav-links {
         position: fixed;
@@ -804,25 +824,30 @@ footer a:hover{
     margin: 2px auto;
     }
     
-h1 , h2 , ul, ol, li, mono {
-    color: ffff;
+h1 , h2 , ul, ol, li, head, heading, mono {
+    color: #ffffff;
     font-weight: bold;
     font-size: 16pt;
     leading: 1.2pt;
 }
 
-h3, h4, p {
+h3, h4, p , body {
     color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 12pt;
     leading: 1.2pt;
 }
 
 pre {
-    color: #000000; 
+    color: #ffffff; 
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 12pt;
     leading: 2pt;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
     .nav-links {
         position: fixed;
