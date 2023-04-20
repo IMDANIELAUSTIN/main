@@ -13,5 +13,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.html/$1 [L]
 
-ErrorDocument 404
-/errorpage.html
+ErrorDocument 404 /errorpage.html
