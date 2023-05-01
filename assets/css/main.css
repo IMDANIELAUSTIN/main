@@ -202,6 +202,11 @@ footer :hover{
     color: #ff0000;
     }
 
+div .copyright{
+    text-align: center;
+}
+
+
 @media (max-width: 980px) {
     .show {
         background-color: #1e1e1e;
