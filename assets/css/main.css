@@ -181,7 +181,7 @@ footer {
 footer a{
     text-decoration: none;
     color: #000000;
-    text-align: middle; 
+    text-align: center; 
     padding: 8px;
     font-weight: bold;
     font-size: 16pt
@@ -190,6 +190,7 @@ footer a{
 footer ul{
     display: flex;
     list-style-type: none;
+    text-align: center;
     padding: 16px;
     background-color: #ffffff;
     display: block;
@@ -956,7 +957,7 @@ pre {
 }
 
 .tiles .a{
-    text-align: middle;
+    text-align: center;
     align-content: middle;
     
 }
