@@ -107,19 +107,20 @@
 .article :img {
     height: auto;
     width: 100%;
-    max-width: 100% ;
+    max-width: 50% ;
     align-content: middle;
     text-align: middle;
 }
 
 .tiles {
   display: inline-grid;
-  float: middle;
+  float: left;
   position: relative;
   align-content: center;
-  /* width: 300; */
-  max-width: 100%;
-  /* max-height: 300; */
+  min-width: 300px;
+  max-width: 200%;
+  min-height: 300px;
+  max-height: 100%;
   margin-right: 16px;
   margin-bottom: 16px;
   color: #ffffff;
@@ -137,6 +138,7 @@
   img {
     display: block;
   width: 100%;
+  max-height: 100%;
   border-bottom: 4pt solid #ffffff;
 
     
@@ -194,6 +196,7 @@
 
 .tiles .img {
   height: auto;
+  max-height: 550px;
   max-width: 100%;
 }
 
@@ -360,7 +363,7 @@ pre {
     }
     
     .nav-links a:hover{
-    background: transparent;
+    background: inherit;
     color: #ff0000;
     opacity: 100%;
     }
@@ -402,6 +405,10 @@ pre {
     
 .tiles {
     align-content: center;
+    max-height: 100%;
+    width: auto;
+
+
 }
     
 .tiles a{
