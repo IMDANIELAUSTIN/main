@@ -13,6 +13,7 @@
   color: #ffffff;
   text-align: center;
   padding: 16px;
+  max-width: 100%;
 
 }
 
@@ -22,12 +23,15 @@
     } 
 
 .tiles {
-  display: inline-block;
+  display: inline-grid;
   float: left; 
+  position: relative;
   align-content: center;
-  width: 300px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  width: 300;  
+  max-width: 100%;
+  max-height: 300;
+  margin-right: 16px;
+  margin-bottom: 16px;
   color: #ffffff;
   text-decoration: none;
   border: 4pt solid #ffffff;
@@ -42,7 +46,6 @@
   
   img {
     display: block;
-    align-content: center;
     width: 100%;      
     border-bottom: 4pt solid #ffffff;
 
