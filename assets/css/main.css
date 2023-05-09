@@ -24,7 +24,7 @@
 
 .tiles {
   display: inline-grid;
-  float: left; 
+  float: center; 
   position: relative;
   align-content: center;
   width: 300;  
