@@ -114,12 +114,12 @@
 
 .tiles {
   display: inline-grid;
-  float: center; 
+  float: middle;
   position: relative;
   align-content: center;
-  width: 300;  
+  /* width: 300; */
   max-width: 100%;
-  max-height: 300;
+  /* max-height: 300; */
   margin-right: 16px;
   margin-bottom: 16px;
   color: #ffffff;
@@ -128,60 +128,68 @@
   border-radius: 0pt;
   overflow: hidden;
   -webkit-transition: all 168ms ease;
-  &:hover {
+  &:
+  hover {
       -moz-box-shadow:    1px 1px 10px 1px #DDDDDD;
-      -webkit-box-shadow: 1px 1px 10px 1px #DDDDDD;
-      box-shadow:         1px 1px 10px 1px #DDDDDD;
+  -webkit-box-shadow: 1px 1px 10px 1px #DDDDDD;
+  box-shadow:         1px 1px 10px 1px #DDDDDD;
   }
-  
   img {
     display: block;
-    width: 100%;      
-    border-bottom: 4pt solid #ffffff;
+  width: 100%;
+  border-bottom: 4pt solid #ffffff;
 
     
-    @media(min-width: 500px){
+    @media(
+  min-width: 500px){
       display: block;
     }
   }
 
-  &__description {
+  &
+  __description {
     padding: 20px;
-    display: block;
-    h1 {font-size: 1.68em; margin-bottom: 16px;}
-    h2 {font-size: 1.68em; margin-bottom: 16px;}
-    p {line-height: 1.2;}
+  display: block;
+  h1 {font-size: 1.68em;
+  margin-bottom: 16px;}
+  h2 {font-size: 1.68em;
+  margin-bottom: 16px;}
+  p {line-height: 1.2;}
     
     .project-btn {
-      display: block;
-      margin: 16px 0;
-      padding: 20px;
-      text-align: center;
-      border: 4pt solid #ffffff;
-      border-radius: 0pt;
+  display: block;
+  margin: 16px 0;
+  padding: 20px;
+  text-align: center;
+  border: 4pt solid #ffffff;
+  border-radius: 0pt;
 
     }
-    ul li {
+  ul li {
       display: inline-block;
     }
-    ul li:first-child {
+  ul li:first-child {
       font-size: 16px;
     }
-    ul li a {
+  ul li a {
       display: block;
-      /* padding: 5px 10px; */
-      /* border: 4pt solid #ffffff; */
-      /* border-radius: 0px; */
-      color: #ffffff;
-      font-size: 16px;
-      text-decoration: none;
-      -webkit-transition: all 168ms ease;
-      &:hover {
+  /* padding: 5px 10px; */
+  /* border: 4pt solid #ffffff; */
+  /* border-radius: 0px; */
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: all 168ms ease;
+      &:
+  hover {
         color: (#ff0000);
       }
     }
   }
-  
+;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .tiles .img {
@@ -236,7 +244,7 @@ a:link , a:visited {
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
-    text-align: left;
+    text-align: center;
 }
 
 a:active, a:hover {
@@ -246,7 +254,7 @@ a:active, a:hover {
 
 img {
   height: auto;
-  max-width: 720;
+  max-width: 100%;
 }
 
 
@@ -393,7 +401,7 @@ pre {
     }
     
 .tiles {
-    align-content: middle;
+    align-content: center;
 }
     
 .tiles a{
@@ -592,7 +600,7 @@ pre {
     }
     
 .tiles {
-    align-content: middle;
+    align-content: center;
 }
     
 .tiles a{
@@ -791,7 +799,7 @@ pre {
     }
     
 .tiles {
-    align-content: middle;
+    align-content: center;
 }
     
 .tiles a{
