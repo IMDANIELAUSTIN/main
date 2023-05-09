@@ -1012,19 +1012,19 @@ pre {
     position: relative;
 }
 
-.article .a{
+.article a {
     text-decoration: none;
     text-align: center;
     postition: relative;
     
 }
 
-.article :hover{
+.article hover {
     background: transparent;
     color: #ff0000;
     }
 
-.article :img {
+.article img {
     height: auto;
     width: 100%;
     max-width: 100% ;
@@ -1032,8 +1032,8 @@ pre {
     text-align: middle;
 }
 
-.tiles .img {
-    display: inlline-block;
+.tiles img {
+    display: inline-block;
     height: 100;
     max-height: 100;
     width: 100%;
@@ -1042,19 +1042,19 @@ pre {
     text-align: middle;
 }
 
-.tiles .a{
+.tiles a {
     text-align: center;
     align-content: middle;
     
 }
 
-footer{
+footer {
     background: #1e1e1e;
     margin: auto;
     text-align: center;
     }
     
-footer a{
+footer a {
     text-decoration: none;
     color: #000000;
     text-align: center; 
@@ -1063,7 +1063,7 @@ footer a{
     font-size: 16pt
     }  
 
-footer ul{
+footer ul {
     display: flex;
     text-align: center; 
     list-style-type: none;
@@ -1074,12 +1074,12 @@ footer ul{
     }
 
 
-footer a:active{
+footer a:active {
     background: transparent;
     text-color: #ffffff;
     }
     
-footer a:hover{
+footer a:hover {
     background: transparent;
     text-color: #ff0000;
     }
