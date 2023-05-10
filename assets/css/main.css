@@ -9,7 +9,7 @@
 
 
 .logo {
-    position: relative;
+    position: block;
     margin: 2px auto;
     }
 
@@ -113,28 +113,85 @@
 }
 
 .tiles {
-    display: auto grid;
-    float: center;
-    position: relative;
-    align-content: center;
-    min-width: 300px;
-    max-width: 200%;
-    min-height: 300px;
-    max-height: 100%;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    color: #ffffff;
-    text-decoration: none;
-    border: 4pt solid #ffffff;
-    border-radius: 0pt;
-    overflow: auto;
-    -webkit-transition: all 168ms ease;
-    padding: 5px 10px;
-    border: 4pt solid #ffffff;
-    border-radius: 0px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+  display: inline-grid;
+  float: left;
+  position: relative;
+  align-content: center;
+  min-width: 300px;
+  max-width: 200%;
+  min-height: 300px;
+  max-height: 100%;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 4pt solid #ffffff;
+  border-radius: 0pt;
+  overflow: hidden;
+  -webkit-transition: all 168ms ease;
+  &:
+  hover {
+      -moz-box-shadow:    1px 1px 10px 1px #DDDDDD;
+  -webkit-box-shadow: 1px 1px 10px 1px #DDDDDD;
+  box-shadow:         1px 1px 10px 1px #DDDDDD;
+  }
+  img {
+    display: block;
+  width: 100%;
+  max-height: 100%;
+  border-bottom: 4pt solid #ffffff;
+
+    
+    @media(
+  min-width: 500px){
+      display: block;
+    }
+  }
+
+  &
+  __description {
+    padding: 20px;
+  display: block;
+  h1 {font-size: 1.68em;
+  margin-bottom: 16px;}
+  h2 {font-size: 1.68em;
+  margin-bottom: 16px;}
+  p {line-height: 1.2;}
+    
+    .project-btn {
+  display: block;
+  margin: 16px 0;
+  padding: 20px;
+  text-align: center;
+  border: 4pt solid #ffffff;
+  border-radius: 0pt;
+
+    }
+  ul li {
+      display: inline-block;
+    }
+  ul li:first-child {
+      font-size: 16px;
+    }
+  ul li a {
+      display: block;
+  /* padding: 5px 10px; */
+  /* border: 4pt solid #ffffff; */
+  /* border-radius: 0px; */
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: all 168ms ease;
+      &:
+  hover {
+        color: (#ff0000);
+      }
+    }
+  }
+;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .tiles .img {
@@ -143,20 +200,13 @@
   max-width: 100%;
 }
 
-.tiles a {
+  .tiles a {
   text-decoration: none;    
   text-decoration-color: #ffffff;
   color: #ffffff;
   text-align: center;
   padding: 16px;
   max-width: 100%;
-}
-
-.paymenticons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 h1 , h2 , ul, ol, li, head {
@@ -210,7 +260,15 @@ img {
   max-width: 100%;
 }
 
-
+.footer__payment-icons {
+    display: table-footer-group;
+    grid-gap: 8px;
+    grid-template-columns: inherit;
+    padding: auto;
+    height: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
 
 footer {
     background: #1e1e1e;
@@ -228,12 +286,11 @@ footer a{
     }  
 
 footer ul{
-    display: flex;
+    display: inline-flex;
     list-style-type: none;
     text-align: center;
     padding: 16px;
     background-color: #ffffff;
-    display: block;
     float: left; 
     }
     
@@ -241,7 +298,6 @@ footer :hover{
     background: transparent;
     color: #ff0000;
     }
-
 
 div .copyright{
     text-align: center;
@@ -962,8 +1018,6 @@ pre {
     
 .tiles a{
     align-content: middle;
-   text-align: justify;
-    align-content: space-evenly;
 }
     
 .article {
@@ -999,13 +1053,18 @@ pre {
 }
 
 .tiles img {
-    display: inline-flex;
+    display: inline-block;
     height: 100;
     max-height: 100;
     width: 100%;
     max-width: 100%;
     object-fit: contain;
-    text-align: middle;   
+    text-align: middle;
+}
+
+.tiles a {
+    text-align: center;
+    align-content: middle;
     
 }
 
@@ -1025,11 +1084,12 @@ footer a {
     }  
 
 footer ul {
-    display: inline-flex;
+    display: flex;
     text-align: center; 
     list-style-type: none;
     padding: auto;
     background-color: #ffffff;
+    display: block;
     float: left; 
     }
 
