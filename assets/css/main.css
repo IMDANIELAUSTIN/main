@@ -9,7 +9,7 @@
 
 
 .logo {
-    position: block;
+    position: relative;
     margin: 2px auto;
     }
 
@@ -152,6 +152,12 @@
   max-width: 100%;
 }
 
+.paymenticons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
