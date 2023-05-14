@@ -86,7 +86,7 @@
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
-    border-radius: 0px;
+    border-radius: 16px;
     border: 4pt #ffffff;
     text-align: center;
     position: relative;
@@ -105,44 +105,31 @@
     }
 
 .article :img {
-    height: auto;
-    width: 100%;
-    max-width: 50% ;
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
     align-content: middle;
-    text-align: middle;
+    text-align: center;
+    position: relative;
 }
 
 .tiles {
-  display: inline-grid;
-  float: inline-start;
-  position: relative;
-  align-content: center;
-  min-width: 300px;
-  max-width: 200%;
-  min-height: 300px;
-  max-height: 100%;
-  margin-right: 16px;
-  margin-bottom: 16px;
-  color: #ffffff;
-  text-decoration: none;
-  border: 4pt solid #ffffff;
-  border-radius: 0pt;
-  overflow: hidden;
-  -webkit-transition: all 168ms ease;
-  &:
-  hover {
-      -moz-box-shadow:    1px 1px 10px 1px #DDDDDD;
-  -webkit-box-shadow: 1px 1px 10px 1px #DDDDDD;
-  box-shadow:         1px 1px 10px 1px #DDDDDD;
-  }
-  img {
-    display: block;
-  width: 100%;
-  max-height: 100%;
-  border-bottom: 4pt solid #ffffff;
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
+    align-content: middle;
+    text-align: center;
+    position: relative;
 
     
-    @media(max-width: 1300px) {
+    @media(
+  min-width: 500px){
       display: block;
     }
   }
@@ -163,7 +150,7 @@
   padding: 20px;
   text-align: center;
   border: 4pt solid #ffffff;
-  border-radius: 0pt;
+  border-radius: 16pt;
 
     }
   ul li {
@@ -194,19 +181,27 @@
 }
 
 .tiles .img {
-  display: inline-block;
-  height: auto;
-  max-height: 550px;
-  max-width: 100%;
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
+    align-content: middle;
+    text-align: center;
+    position: relative;
 }
 
   .tiles a {
-  text-decoration: none;    
-  text-decoration-color: #ffffff;
-  color: #ffffff;
-  text-align: center;
-  padding: 16px;
-  max-width: 100%;
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
+    align-content: middle;
+    text-align: center;
+    position: relative;
 }
 
 h1 , h2 , ul, ol, li, head {
@@ -256,8 +251,15 @@ a:active, a:hover {
 }
 
 img {
-  height: auto;
-  max-width: 100%;
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px 16px 0px 0px;
+    border: 4pt #000000;
+    align-content: middle;
+    text-align: center;
+    position: relative;
 }
 
 .footer__payment-icons {
@@ -1013,27 +1015,34 @@ pre {
     }
     
 .tiles {
-    display: inline;
-    height: 100;
-    max-height: 100;
-    width: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    text-align: middle;
+   display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
     align-content: middle;
+    text-align: center;
+    position: relative;
 }
     
 .tiles a {
-    display: inline-block;
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
+    align-content: middle;
     text-align: center;
-    align-content: middle;}
+    position: relative;
     
 .article {
     display: block;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-    border-radius: 0px;
+    border-radius: 16px;
     border: 4pt #000000;
     align-content: middle;
     text-align: center;
@@ -1041,11 +1050,15 @@ pre {
 }
 
 .article a {
-    display: inline-block;
-    text-decoration: none;
+   display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 4pt #000000;
+    align-content: middle;
     text-align: center;
-    postition: relative;
-    
+    position: relative;
 }
 
 .article hover {
@@ -1062,7 +1075,7 @@ pre {
 }
 
 .tiles img {
-    display: inline;
+    display: inline-block;
     height: 100;
     max-height: 100;
     width: 100%;
