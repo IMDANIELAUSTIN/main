@@ -248,7 +248,7 @@ a:active, a:hover {
 }
 
 img {
-    display: block;
+    display: inline-grid;
     color: transparent;
     cursor: pointer;
     margin: 8;
@@ -259,10 +259,10 @@ img {
 }
 
 .cover {
-  display: inline-grid;
   object-fit: cover;
-  width: 100%;
-  max-width: 600;
+  min-width: 100%;
+  max-height: auto;
+  max-width: 950;
 
 }
 
