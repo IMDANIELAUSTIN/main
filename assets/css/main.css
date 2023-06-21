@@ -257,7 +257,7 @@ img {
     cursor: pointer;
     margin: 16;
     border-radius: 16px;
-    align-content: middle;
+    align-content: ceneter;
     text-align: center;
     position: inherit;
 }
@@ -590,7 +590,7 @@ img {
     cursor: pointer;
     margin: 8;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
@@ -922,7 +922,7 @@ img {
     cursor: pointer;
     margin: 8;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
@@ -1255,7 +1255,7 @@ img {
     cursor: pointer;
     margin: 8;
     border-radius: 16px;
-    align-content: middle;
+    align-content: center;
     text-align: center;
     position: relative;
 }
@@ -1589,8 +1589,8 @@ img {
     display: block;
     cursor: pointer;
     margin: auto;
-    ius: 16px;
-    align-content: middle;
+    border-radius: 16px;
+    align-content: center;
     text-align: center;
     position: relative;
 }
