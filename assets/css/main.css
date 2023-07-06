@@ -180,6 +180,11 @@
   justify-items: center;
 }
 
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+} 
+
 .tiles .img {
   display: block;
     color: #000000;
