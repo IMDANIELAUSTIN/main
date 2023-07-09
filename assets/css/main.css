@@ -1284,12 +1284,11 @@ a:active, a:hover {
 }
 
 img {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
     color: transparent;
     display: flex;
     margin: auto;
-    padding: 16;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1638,12 +1637,11 @@ nav-links:active, nav-links:hover {
 }
 
 img {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
     color: transparent;
     display: flex;
     margin: auto;
-    padding: 16;
     align-content: center;
     text-align: center;
     position: relative;
