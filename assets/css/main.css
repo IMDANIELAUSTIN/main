@@ -277,14 +277,15 @@ a:active, a:hover {
 }
 
 img {
+    max-width: 75%;
+    height: auto;
     color: transparent;
-    display: inline-flex;
-    cursor: pointer;
-    margin: 16;
-    border-radius: 16px;
-    align-content: ceneter;
+    display: flex;
+    margin: auto;
+    padding: 16;
+    align-content: center;
     text-align: center;
-    position: inherit;
+    position: relative;
 }
 
 .cover {
@@ -610,10 +611,12 @@ a:active, a:hover {
 }
 
 img {
+    max-width: 75%;
+    height: auto;
     color: transparent;
-    cursor: pointer;
-    margin: 8;
-    border-radius: 16px;
+    display: flex;
+    margin: auto;
+    padding: 16;
     align-content: center;
     text-align: center;
     position: relative;
@@ -944,10 +947,12 @@ a:active, a:hover {
 }
 
 img {
+    max-width: 75%;
+    height: auto;
     color: transparent;
-    cursor: pointer;
-    margin: 8;
-    border-radius: 16px;
+    display: flex;
+    margin: auto;
+    padding: 16;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1279,10 +1284,12 @@ a:active, a:hover {
 }
 
 img {
+    max-width: 75%;
+    height: auto;
     color: transparent;
-    cursor: pointer;
-    margin: 8;
-    border-radius: 16px;
+    display: flex;
+    margin: auto;
+    padding: 16;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1631,13 +1638,12 @@ nav-links:active, nav-links:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     color: transparent;
-    display: static;
-    cursor: pointer;
+    display: flex;
     margin: auto;
-    border-radius: 16px;
+    padding: 16;
     align-content: center;
     text-align: center;
     position: relative;
