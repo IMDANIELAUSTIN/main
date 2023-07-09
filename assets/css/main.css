@@ -281,7 +281,6 @@ img {
     height: auto;
     color: transparent;
     display: flex;
-    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1640,7 +1639,6 @@ img {
     height: auto;
     color: transparent;
     display: flex;
-    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
