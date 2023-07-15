@@ -360,8 +360,6 @@ img {
     color: transparent;
     display: inline-flex;
     cursor: pointer;
-    margin: 16;
-    border-radius: 16px;
     align-content: ceneter;
     text-align: center;
     position: inherit;
@@ -680,8 +678,6 @@ a:active, a:hover {
 img {
     color: transparent;
     cursor: pointer;
-    margin: 8;
-    border-radius: 16px;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1665,7 +1661,7 @@ img {
     max-width: 100%;
     height: auto;
     color: transparent;
-    display: static;
+    display: flex;
     cursor: pointer;
     margin: auto;
     align-content: center;
