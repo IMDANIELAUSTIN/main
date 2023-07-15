@@ -5,8 +5,8 @@
     color: #ffffff;
     text-decoration-color: #ffffff;
     background: #1e1e1e;
-  	padding: 16px 0;
-  	color: #ff0000;
+    padding: 16px 0;
+    color: #ff0000;
     }
 
 .logo {
@@ -357,12 +357,16 @@ a:active, a:hover {
 }
 
 img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
     color: transparent;
-    display: inline-flex;
+    display: flex;
     cursor: pointer;
+    margin: auto;
     align-content: center;
     text-align: center;
-    position: inherit;
+    position: relative;   
 }
 
 .cover {
@@ -676,11 +680,16 @@ a:active, a:hover {
 }
 
 img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
+    margin: auto;
     align-content: center;
     text-align: center;
-    position: relative;
+    position: relative;   
 }
 
 .cover {
@@ -997,12 +1006,16 @@ a:active, a:hover {
 }
 
 img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
-    margin: 8;
+    margin: auto;
     align-content: center;
     text-align: center;
-    position: relative;
+    position: relative;   
 }
 
 .cover {
@@ -1319,12 +1332,16 @@ a:active, a:hover {
 }
 
 img {
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
-    margin: 8;
+    margin: auto;
     align-content: center;
     text-align: center;
-    position: relative;
+    position: relative;   
 }
 
 .cover {
@@ -1658,7 +1675,8 @@ nav-links:active, nav-links:hover {
 }
 
 img {
-    max-width: 1080;
+    width: 100%;
+    max-width: 1080px;
     height: auto;
     color: transparent;
     display: flex;
@@ -1666,7 +1684,7 @@ img {
     margin: auto;
     align-content: center;
     text-align: center;
-    position: relative;
+    position: relative;   
 }
 
 .cover {
