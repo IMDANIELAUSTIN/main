@@ -5,8 +5,9 @@
     color: #ffffff;
     text-decoration-color: #ffffff;
     background: #1e1e1e;
+  	padding: 16px 0;
+  	color: #ff0000;
     }
-
 
 .logo {
     position: block;
@@ -85,12 +86,100 @@
     transform: rotate(-45deg) translateY(-6.5px);
 }
 
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  
+  display: grid;
+  
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media (min-width: 60em) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  
+  // sets up hover state
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+    
+  &:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  }
+  
+  article {
+    padding: 20px;
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #ff0000;
+  }
+  
+  p {
+    flex: 1;
+    line-height: 1.4;
+  }
+  
+  span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+  }
+  
+  .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.item-1 {
+  @media (min-width: 60em) {
+    grid-column: 1 / span 2;
+    
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
+
 .article {
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #ffffff;
     text-align: center;
     position: relative;
 }
@@ -112,8 +201,6 @@
     color: #000000;
     cursor: pointer;
     margin: 8 auto;
-  border-radius: 16px;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -124,8 +211,6 @@
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
-  border-radius: 16px;
-  border: 4pt #000000;
   align-content: stretch;
   text-align: center;
   position: relative;
@@ -150,7 +235,6 @@
   padding: 20px;
   text-align: center;
   border: 4pt solid #ffffff;
-  border-radius: 16pt;
 
     }
   ul li {
@@ -210,7 +294,6 @@ align-content: middle;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -221,7 +304,6 @@ align-content: middle;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -275,13 +357,14 @@ a:active, a:hover {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
     color: transparent;
     display: inline-flex;
-    align-content: center;
+    cursor: pointer;
+    margin: 16;
+    border-radius: 16px;
+    align-content: ceneter;
     text-align: center;
-    position: relative;
+    position: inherit;
 }
 
 .cover {
@@ -444,8 +527,6 @@ background-color 0.3s;
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #ffffff;
     text-align: center;
     position: relative;
 }
@@ -467,8 +548,6 @@ background-color 0.3s;
     color: #000000;
     cursor: pointer;
     margin: 8 auto;
-  border-radius: 16px;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -479,8 +558,6 @@ background-color 0.3s;
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
-  border-radius: 16px;
-  border: 4pt #000000;
   align-content: stretch;
   text-align: center;
   position: relative;
@@ -504,8 +581,6 @@ background-color 0.3s;
   margin: 16px 0;
   padding: 20px;
   text-align: center;
-  border: 4pt solid #ffffff;
-  border-radius: 16pt;
 
     }
   ul li {
@@ -540,7 +615,6 @@ background-color 0.3s;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -551,7 +625,6 @@ background-color 0.3s;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -605,11 +678,10 @@ a:active, a:hover {
 }
 
 img {
-    max-width: 75%;
-    height: auto;
     color: transparent;
-    display: flex;
-    margin: auto;
+    cursor: pointer;
+    margin: 8;
+    border-radius: 16px;
     align-content: center;
     text-align: center;
     position: relative;
@@ -777,8 +849,6 @@ background-color 0.3s;
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #ffffff;
     text-align: center;
     position: relative;
 }
@@ -800,8 +870,6 @@ background-color 0.3s;
     color: #000000;
     cursor: pointer;
     margin: 8 auto;
-  border-radius: 16px;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -812,8 +880,6 @@ background-color 0.3s;
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
-  border-radius: 16px;
-  border: 4pt #000000;
   align-content: stretch;
   text-align: center;
   position: relative;
@@ -838,7 +904,6 @@ background-color 0.3s;
   padding: 20px;
   text-align: center;
   border: 4pt solid #ffffff;
-  border-radius: 16pt;
 
     }
   ul li {
@@ -873,8 +938,6 @@ background-color 0.3s;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -885,8 +948,6 @@ background-color 0.3s;
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -940,11 +1001,9 @@ a:active, a:hover {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
     color: transparent;
-    display: flex;
-    margin: auto;
+    cursor: pointer;
+    margin: 8;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1113,8 +1172,6 @@ pre {
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #ffffff;
     text-align: center;
     position: relative;
 }
@@ -1136,8 +1193,6 @@ pre {
     color: #000000;
     cursor: pointer;
     margin: 8 auto;
-  border-radius: 16px;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -1148,8 +1203,6 @@ pre {
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
-  border-radius: 16px;
-  border: 4pt #000000;
   align-content: stretch;
   text-align: center;
   position: relative;
@@ -1173,8 +1226,6 @@ pre {
   margin: 16px 0;
   padding: 20px;
   text-align: center;
-  border: 4pt solid #ffffff;
-  border-radius: 16pt;
 
     }
   ul li {
@@ -1209,8 +1260,6 @@ pre {
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -1221,8 +1270,6 @@ pre {
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -1276,11 +1323,9 @@ a:active, a:hover {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
     color: transparent;
-    display: flex;
-    margin: auto;
+    cursor: pointer;
+    margin: 8;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1448,8 +1493,6 @@ pre {
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #ffffff;
     text-align: center;
     position: relative;
 }
@@ -1471,8 +1514,6 @@ pre {
     color: #000000;
     cursor: pointer;
     margin: 8 auto;
-  border-radius: 16px;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -1483,8 +1524,6 @@ pre {
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
-  border-radius: 16px;
-  border: 4pt #000000;
   align-content: stretch;
   text-align: center;
   position: relative;
@@ -1508,8 +1547,6 @@ pre {
   margin: 16px 0;
   padding: 20px;
   text-align: center;
-  border: 4pt solid #ffffff;
-  border-radius: 16pt;
 
     }
   ul li {
@@ -1544,8 +1581,6 @@ pre {
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -1556,8 +1591,6 @@ pre {
     color: #000000;
     cursor: pointer;
     margin: 0 auto;
-  border-radius: 16px 0 16px 0;
-    border: 4pt #000000;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -1632,7 +1665,9 @@ img {
     max-width: 100%;
     height: auto;
     color: transparent;
-    display: flex;
+    display: static;
+    cursor: pointer;
+    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
