@@ -360,7 +360,7 @@ img {
     color: transparent;
     display: inline-flex;
     cursor: pointer;
-    align-content: ceneter;
+    align-content: center;
     text-align: center;
     position: inherit;
 }
@@ -1658,7 +1658,7 @@ nav-links:active, nav-links:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: 1080;
     height: auto;
     color: transparent;
     display: flex;
