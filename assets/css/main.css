@@ -361,8 +361,7 @@ img {
     display: inline-flex;
     cursor: pointer;
     margin: 16;
-    border-radius: 16px;
-    align-content: ceneter;
+    align-content: center;
     text-align: center;
     position: inherit;
 }
