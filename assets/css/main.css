@@ -678,10 +678,13 @@ a:active, a:hover {
 }
 
 img {
+    min-width: 30;
+    max-width: 1080;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
-    margin: 8;
-    border-radius: 16px;
+    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1323,9 +1326,13 @@ a:active, a:hover {
 }
 
 img {
+    min-width: 30;
+    max-width: 1080;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
-    margin: 8;
+    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1662,10 +1669,11 @@ nav-links:active, nav-links:hover {
 }
 
 img {
-    max-width: 100%;
+    min-width: 30;
+    max-width: 1080;
     height: auto;
     color: transparent;
-    display: static;
+    display: flex;
     cursor: pointer;
     margin: auto;
     align-content: center;
