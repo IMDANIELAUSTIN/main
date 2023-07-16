@@ -1668,8 +1668,7 @@ nav-links:active, nav-links:hover {
 }
 
 img {
-    min-width: 30;
-    max-width: 1080;
+    max-width: 100%;
     height: auto;
     color: transparent;
     display: flex;
