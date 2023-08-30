@@ -85,6 +85,23 @@
 .show .two {
     transform: rotate(-45deg) translateY(-6.5px);
 }
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 
 header {
   width: 90%;
@@ -361,8 +378,7 @@ img {
     display: inline-flex;
     cursor: pointer;
     margin: 16;
-    border-radius: 16px;
-    align-content: ceneter;
+    align-content: center;
     text-align: center;
     position: inherit;
 }
@@ -678,10 +694,13 @@ a:active, a:hover {
 }
 
 img {
+    min-width: 30;
+    max-width: 1080;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
-    margin: 8;
-    border-radius: 16px;
+    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1323,9 +1342,13 @@ a:active, a:hover {
 }
 
 img {
+    min-width: 30;
+    max-width: 1080;
+    height: auto;
     color: transparent;
+    display: flex;
     cursor: pointer;
-    margin: 8;
+    margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
@@ -1665,13 +1688,15 @@ img {
     max-width: 100%;
     height: auto;
     color: transparent;
-    display: static;
+    display: flex;
     cursor: pointer;
     margin: auto;
     align-content: center;
     text-align: center;
     position: relative;
 }
+
+
 
 .cover {
   object-fit: cover;
