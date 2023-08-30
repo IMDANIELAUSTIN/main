@@ -69,6 +69,44 @@
 
 							</header>
 <hr>
-<h1>WORKS</h1>
+<h1>PORTFOLIO</h1>
 <hr>
 <!-- Articles/Projects -->
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fycv4Lk2o9LiYOc7MXXICwY%2FDaniel-Austin-Visual%252C-Product-Design-Portfolio%3Fpage-id%3D4%253A62%26type%3Ddesign%26node-id%3D528-1787%26viewport%3D427%252C908%252C0.02%26t%3DEjenYolRGrFh7imE-1%26scaling%3Dscale-down%26starting-point-node-id%3D528%253A1787%26mode%3Ddesign" allowfullscreen></iframe>
+<!-- Footer -->
+											 
+	<div class="inner">
+			  
+	<footer id="footer">
+	
+<!-- Social -->
+	
+							<section>
+							<pre>
+									<a href="https://www.facebook.com/imdanielaustin/" target="_blank"><span class="label">FACEBOOK</span></a>
+									<a href="https://www.instagram.com/ASTNDSGN/" target="_blank"><span class="label">INSTAGRAM</span></a>
+									<a href="https://www.twitter.com/IMDANIELAUSTIN/" target="_blank"><span class="label">TWITTER</span></a>
+									<a href="https://www.linkedin.com/in/IMDANIELAUSTIN/" target="_blank"><span class="label">LINKEDIN</span></a>
+									<a href="tel:6268382231" target="_blank"><span class="label">(626) 838-2231</span></a>
+									<a href="mailto:me@imdanielaustin.com" target="_blank"><span class="label">ME@IMDANIELAUSTIN.COM</span></a>
+							
+							</pre></section>
+							
+<!-- Copyright Disclaimer -->
+<pre>
+  © 2023 DANIEL AUSTIN. MADE WITH  ❤  IN LOS ANGELES CA. ALL RIGHTS RESERVED.
+</pre>       
+
+  </footer>
+
+</div>
+
+<!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  
+</body></html>
