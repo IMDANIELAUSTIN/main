@@ -217,7 +217,7 @@ header {
     display: grid;
     color: #000000;
     cursor: pointer;
-    margin: 8 auto;
+    margin: 0 auto;
     align-content: middle;
     text-align: center;
     position: relative;
@@ -239,8 +239,8 @@ body
 {
   width:380px;
   height:380px;
-  margin:10px;
-  background-color:#ff0000;
+  margin:0px;
+  background-color:#1e1e1e;
   display:inline-block;
   background-size:contain;
   background-repeat:no-repeat;
@@ -269,7 +269,7 @@ body
   left:0;
   z-index:0;
   transition: all 0.4s ease-out;
-    object-fit: fill;
+  object-fit: fill;
 }
 
 .tile h1
@@ -289,7 +289,7 @@ body
 .tile p
 {
   font-weight:300;
-  margin:20px 0 0 0;
+  margin:0 0 0 0;
   line-height: 25px;
 /*   opacity:0; */
   transform: translateX(-200px);
