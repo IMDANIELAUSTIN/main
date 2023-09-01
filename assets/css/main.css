@@ -322,19 +322,6 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:translateY(0px);
 }
 
-.dots span:nth-child(1)
-{
-   transition-delay: 0.05s;
-}
-.dots span:nth-child(2)
-{
-   transition-delay: 0.1s;
-}
-.dots span:nth-child(3)
-{
-   transition-delay: 0.15s;
-}
-
 
 @media (max-width: 1000px) {
   .wrap {
@@ -1743,7 +1730,7 @@ h3, h4, p, body {
 pre {
     display: inline-table;
     color: #ffffff; 
-    font-weight: normal;
+    font-weight: Bold;
     font-size: 16pt;
     leading: 1.2pt;
     white-space: pre-wrap;       /* css-3 */
