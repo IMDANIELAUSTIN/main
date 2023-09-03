@@ -238,12 +238,12 @@ body
 }
 .tile
 {
-    width: 380px;
-    height: 380px;
-    margin: 8px;
+    width: 100%;
+    height: 320;
+    margin: 8;
     background-color: #1e1e1e;
     display: inline-block;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;
@@ -256,19 +256,20 @@ body
 }
 .tile .text
 {
-/*   z-index:99; */
-  position:absolute;
-  padding:30px;
-  height:calc(100% - 60px);
+    z-index:99;
+    position:absolute;
+    padding:30px;
+    height:calc(100% - 60px);
 }
+
 .tile img
 {
-  height:100%;
+  height: inherit;
   width:100%;
   position:absolute;
-  top:0;
-  left:0;
-  z-index:0;
+  /* top:0; */
+  /* left:0; */
+  /* z-index:0; */
   transition: all 0.168s ease-out;
 }
 
@@ -298,7 +299,7 @@ body
 .animate-text
 {
   opacity:0;
-  transition: all 0.333s ease-in-out;
+  transition: all 0.168s ease-in-out;
 }
 .tile:hover
 {
@@ -987,83 +988,106 @@ background-color 0.3s;
     text-align: center;
     position: relative;
 }
+.wrap
+{
+    margin: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    max-width: 768px;
 
-.tiles {
-  display: grid;
-  color: #000000;
-  cursor: pointer;
-  margin: 0 auto;
-  align-content: stretch;
-  text-align: center;
-  position: relative;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  }
-
-  &
-  __description {
-    padding: 20px;
-  display: block;
-  h1 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  h2 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  p {line-height: 1.2;}
-    
-    .project-btn {
-  display: block;
-  margin: 16px 0;
-  padding: 20px;
-  text-align: center;
-  border: 4pt solid #ffffff;
-
-    }
-  ul li {
-      display: inline-block;
-    }
-  ul li:first-child {
-      font-size: 16px;
-    }
-  ul li a {
-      display: block;
-  /* padding: 5px 10px; */
-  /* border: 4pt solid #ffffff; */
-  /* border-radius: 0px; */
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  -webkit-transition: all 168ms ease;
-      &:
-  hover {
-        color: (#ff0000);
-      }
-    }
-  }
-;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
+}
+.tile
+{
+    max-width: 768px;
+    height: 320;
+    margin: 8;
+    background-color: #1e1e1e;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.168s ease-out;
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    overflow: hidden;
+    color: white;
+    font-family: 'Helvetica';
+}
+.tile .text
+{
+  position: absolute;
+  padding: auto;
+  height:calc(100% - 60px);
+  align-text: middle;
+}
+.tile img
+{
+  height:inherit;
+  width: 100%;
+  position:absolute;
+  transition: all 0.168s ease-out;
 }
 
-.tiles .img {
-  display: block;
-    color: #000000;
-    cursor: pointer;
-    margin: 0 auto;
-    align-content: middle;
-    text-align: center;
-    position: relative;
+.tile h1
+{
+ 
+  font-weight:300;
+  margin:0;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tile h2
+{
+  font-weight:100;
+  margin:16px 0 0 0;
+  font-style:italic;
+   transform: translateX(200px);
+}
+.tile p
+{
+  font-weight:300;
+  margin:16px 0 0 0;
+  line-height: 25px;
+/*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+  
+.tile pre
+{
+  font-weight:300;
+  margin: auto;
+  line-height: 24px;
+  /*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.168s;
+  vertical-align:middle;
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.168s ease-in-out;
+}
+.tile:hover
+{
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
 }
 
-  .tiles a {
-  display: block;
-    color: #000000;
-    cursor: pointer;
-    margin: 0 auto;
-    align-content: middle;
-    text-align: center;
-    position: relative;
+.tile:hover span
+{
+  opacity:1;
+  transform:translateY(0px);
 }
 
 h1 , h2 , ul, ol, li, head {
@@ -1639,25 +1663,26 @@ pre {
 .wrap
 {
     margin: auto;
+    max-width:100% auto;  
     width: auto;
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    text-align: center;
 
 }
 .tile
 {
     width:100%;
     height: 320px;
-    margin: 0px;
+    margin: auto;
     background-color: #1e1e1e;
     display: inline-block;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;
     transition: all 0.168s ease-out;
-    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    box-shadow: 0px 35px 77px -17px rgba(#1e1e1e);
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
@@ -1665,20 +1690,20 @@ pre {
 }
 .tile .text
 {
-/*   z-index:99; */
   position: absolute;
-  padding: inherit;
   height:calc(100% - 60px);
+  margin: auto;
   align-items: center;
+  vertical-align: middle;
+  text-align: center;
 }
 .tile img
 {
   height:inherit;
   width:inherit;
   position:absolute;
-  top:0;
-  left:0;
-  z-index:0;
+  background-image: contain;
+  background-origin: inherit;
   transition: all 0.168s ease-out;
 }
 
@@ -1686,20 +1711,20 @@ pre {
 {
  
   font-weight:300;
-  margin:0;
+  margin:auto;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
 .tile h2
 {
   font-weight:100;
-  margin:16px 0 0 0;
+  margin:auto;
   font-style:italic;
    transform: translateX(200px);
 }
 .tile p
 {
   font-weight:300;
-  margin:16px 0 0 0;
+  margin:auto;
   line-height: 25px;
 /*   opacity:0; */
   transform: translateX(-200px);
@@ -1709,12 +1734,13 @@ pre {
 .tile pre
 {
   font-weight:300;
-  margin:16px 0 0 0;
-  line-height: 24px;
+  margin:auto;
+  line-height: 16px;
 /*   opacity:0; */
   transform: translateX(-200px);
-  transition-delay: 0.2s;
+  transition-delay: none;
   vertical-align:middle;
+  align-content:center;
 }
 .animate-text
 {
@@ -1723,8 +1749,8 @@ pre {
 }
 .tile:hover
 {
-/*   background-color:#99aeff; */
-box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+background-color:#1e1e1e;
+box-shadow: 0px 8px 8px -16px rgba(#1e1e1e);
   transform:scale(1.05);
 }
 .tile:hover img
@@ -1746,14 +1772,14 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
-    font-size: 16pt ;
+    font-size: 8pt ;
     leading: 1.2pt;
 }
 
 h3, h4, p, body {
     color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 8pt;
     leading: 1.2pt;
 }
 
@@ -1761,7 +1787,7 @@ pre {
     display: inline-table;
     color: #ffffff; 
     font-weight: Bold;
-    font-size: 16pt;
+    font-size: 8pt;
     leading: 1.2pt;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
