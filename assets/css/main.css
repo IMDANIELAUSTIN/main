@@ -229,7 +229,7 @@ body
 }
 .wrap
 {
-    margin: 50px auto;
+    margin: 16px auto;
     width: auto;
     display: flex;
     align-items: center;
@@ -240,14 +240,14 @@ body
 {
     width: 380px;
     height: 380px;
-    margin: 10px;
+    margin: 8px;
     background-color: #1e1e1e;
     display: inline-block;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;
-    transition: all 0.4s ease-out;
+    transition: all 0.168s ease-out;
     box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
     overflow: hidden;
     color: white;
@@ -264,13 +264,12 @@ body
 .tile img
 {
   height:100%;
-  width:auto;
+  width:100%;
   position:absolute;
   top:0;
   left:0;
   z-index:0;
-  transition: all 0.4s ease-out;
-    object-fit: fill;
+  transition: all 0.168s ease-out;
 }
 
 .tile h1
@@ -299,7 +298,7 @@ body
 .animate-text
 {
   opacity:0;
-  transition: all 0.6s ease-in-out;
+  transition: all 0.333s ease-in-out;
 }
 .tile:hover
 {
