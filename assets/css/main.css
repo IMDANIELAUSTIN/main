@@ -436,10 +436,10 @@ h3, h4, p, body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
-    leading: 1.2pt;
+    font-size: 12pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -572,10 +572,10 @@ h3, h4, p , body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
     font-size: 16pt;
-    leading: 1.2pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -739,7 +739,15 @@ background-color 0.3s;
     text-align: center;
     position: relative;
 }
-
+.tile pre
+{
+        font-weight: 300;
+        padding: 0;
+        line-height: 24px;
+        transform: translateX(-200px);
+        transition-delay: 0.168s;
+        vertical-align: middle;
+    }
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
@@ -756,10 +764,10 @@ h3, h4, p, body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
-    leading: 1.2pt;
+    font-size: 12pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -892,10 +900,10 @@ h3, h4, p , body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
     font-size: 16pt;
-    leading: 1.2pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -1086,7 +1094,15 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   opacity:1;
   transform:translateY(0px);
 }
-
+.tile pre
+{
+        font-weight: 300;
+        padding: 0;
+        line-height: 24px;
+        transform: translateX(-200px);
+        transition-delay: 0.168s;
+        vertical-align: middle;
+    }
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
@@ -1103,10 +1119,10 @@ h3, h4, p, body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
-    leading: 1.2pt;
+    font-size: 12pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -1236,10 +1252,10 @@ h3, h4, p , body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
     font-size: 16pt;
-    leading: 1.2pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -1332,61 +1348,39 @@ pre {
     position: relative;
 }
 
-.tiles {
-  display: grid;
-  color: #000000;
-  cursor: pointer;
-  margin: 0 auto;
-  align-content: stretch;
-  text-align: center;
-  position: relative;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  }
-
-  &
-  __description {
-    padding: 20px;
-  display: block;
-  h1 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  h2 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  p {line-height: 1.2;}
-    
-    .project-btn {
-  display: block;
-  margin: 16px 0;
-  padding: 20px;
-  text-align: center;
-
-    }
-  ul li {
-      display: inline-block;
-    }
-  ul li:first-child {
-      font-size: 16px;
-    }
-  ul li a {
-      display: block;
-  /* padding: 5px 10px; */
-  /* border: 4pt solid #ffffff; */
-  /* border-radius: 0px; */
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  -webkit-transition: all 168ms ease;
-      &:
-  hover {
-        color: (#ff0000);
-      }
-    }
-  }
-;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
+.wrap
+{
+    margin: 16px auto;
+    width: auto;
+    display: flex;
+    align-items: stretch;
+    max-width: 1200px;
+}
+.tile
+{
+    width: 320;
+    height: 320;
+    margin: 16px auto;
+    padding:auto;
+    background-color: #1e1e1e;
+    display: grid;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.168s ease-out;
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    overflow: hidden;
+    color: white;
+    font-family: 'Helvetica';
+}
+.tile .text
+{
+    z-index: 104;
+    position:absolute;
+    padding: 32px;
+    height:calc(100% - 60px);
+    line-height:24px;
 }
 
 .tiles .img {
@@ -1408,7 +1402,15 @@ pre {
     text-align: center;
     position: relative;
 }
-
+.tile pre
+{
+        font-weight: 300;
+        padding: 0;
+        line-height: 24px;
+        transform: translateX(-200px);
+        transition-delay: 0.168s;
+        vertical-align: middle;
+    }
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
@@ -1425,10 +1427,10 @@ h3, h4, p, body {
 
 pre {
     display: inline-table;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
-    font-size: 16pt;
-    leading: 1.2pt;
+    font-size: 12pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -1563,7 +1565,7 @@ pre {
     color: #ffffff; 
     font-weight: normal;
     font-size: 16pt;
-    leading: 1.2pt;
+    line-height: 24px;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -1695,6 +1697,7 @@ pre {
   align-items: center;
   vertical-align: middle;
   text-align: center;
+  line-height:24px;
 }
 .tile img
 {
@@ -1729,63 +1732,53 @@ pre {
   transition-delay: 0.2s;
 }
   
+.tiles .img {
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
+}
+
+  .tiles a {
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
+}
 .tile pre
 {
-  font-weight:300;
-  margin:auto;
-  line-height: 16px;
-/*   opacity:0; */
-  transform: translateX(-200px);
-  transition-delay: none;
-  vertical-align:middle;
-  align-content:center;
-}
-.animate-text
-{
-  opacity:0;
-  transition: all 0.333s ease-in-out;
-}
-.tile:hover
-{
-background-color:#1e1e1e;
-box-shadow: 0px 8px 8px -16px rgba(#1e1e1e);
-  transform:scale(1.05);
-}
-.tile:hover img
-{
-  opacity: 0.2;
-}
-.tile:hover .animate-text
-{
-  transform:translateX(0);
-  opacity:1;
-}
-
-.tile:hover span
-{
-  opacity:1;
-  transform:translateY(0px);
-}
-
+        font-weight: 300;
+        padding: 0;
+        line-height: 24px;
+        transform: translateX(-200px);
+        transition-delay: 0.168s;
+        vertical-align: middle;
+    }
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
-    font-size: 8pt ;
+    font-size: 12pt ;
     leading: 1.2pt;
 }
 
 h3, h4, p, body {
     color: #ffffff;
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 12pt;
     leading: 1.2pt;
 }
 
 pre {
     display: inline-table;
     color: #ffffff; 
-    font-weight: Bold;
-    font-size: 8pt;
+    font-weight: normal;
+    font-size: 12pt;
     leading: 1.2pt;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
