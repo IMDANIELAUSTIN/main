@@ -231,19 +231,20 @@ body
 {
     margin: 16px auto;
     width: auto;
-    display: flex;
+    display: flex-wrap;
     align-items: stretch;
     max-width: 1200px;
+
 }
 .tile
 {
     width: 320;
     height: 320;
     margin: 16px auto;
-    padding:auto;
+    padding: auto;
     background-color: #1e1e1e;
-    display: grid;
-    background-size: contain;
+    display: flex-wrap;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;
@@ -252,6 +253,7 @@ body
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
+
 }
 .tile .text
 {
