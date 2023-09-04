@@ -231,10 +231,9 @@ body
 {
     margin: 16px auto;
     width: auto;
-    display: flex-wrap;
+    display:grid;
     align-items: stretch;
     max-width: 1200px;
-
 }
 .tile
 {
@@ -243,8 +242,8 @@ body
     margin: 16px auto;
     padding: auto;
     background-color: #1e1e1e;
-    display: flex-wrap;
-    background-size: cover;
+    display: flex;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;
