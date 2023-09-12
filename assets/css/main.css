@@ -108,91 +108,6 @@ header {
   max-width: 1240px;
   margin: 0 auto;
 }
-.band {
-  width: 90%;
-  max-width: 1240px;
-  margin: 0 auto;
-  
-  display: grid;
-  
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
-  
-  @media (min-width: 30em) {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  @media (min-width: 60em) {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-.card {
-  background: white;
-  text-decoration: none;
-  color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  
-  // sets up hover state
-  position: relative;
-  top: 0;
-  transition: all .1s ease-in;
-    
-  &:hover {
-    top: -2px;
-    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
-  }
-  
-  article {
-    padding: 20px;
-    flex: 1;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  h1 {
-    font-size: 20px;
-    margin: 0;
-    color: #ff0000;
-  }
-  
-  p {
-    flex: 1;
-    line-height: 1.4;
-  }
-  
-  span {
-    font-size: 12px;
-    font-weight: bold;
-    color: #ff0000;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    margin: 2em 0 0 0;
-  }
-  
-  .thumb {
-    padding-bottom: 60%;
-    background-size: cover;
-    background-position: center center;
-  }
-}
-
-.item-1 {
-  @media (min-width: 60em) {
-    grid-column: 1 / span 2;
-    
-    h1 {
-      font-size: 24px;
-    }
-  }
-}
-
 .article {
     color: #ffffff;
     cursor: pointer;
@@ -237,8 +152,8 @@ body
 }
 .tile
 {
-    width: 320;
-    height: 320;
+    width: 640;
+    height: 640;
     margin: 16px auto;
     padding: auto;
     background-color: #1e1e1e;
@@ -330,51 +245,49 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
    width: 320;
   }
 }
-
-  &
-  __description {
-    padding: 20px;
-  display: block;
-  h1 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  h2 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  p {line-height: 1.2;}
-    
-    .project-btn {
-  display: block;
-  margin: 16px 0;
-  padding: 20px;
+.tiles {
+  display: ;
+  color: #000000;
+  cursor: pointer;
+  margin: 0 auto;
+  align-content: stretch;
   text-align: center;
-  border: 4pt solid #ffffff;
-
-    }
-  ul li {
-      display: inline-block;
-    }
-  ul li:first-child {
-      font-size: 16px;
-    }
-  ul li a {
-      display: block;
-  /* padding: 5px 10px; */
-  /* border: 4pt solid #ffffff; */
-  /* border-radius: 0px; */
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  -webkit-transition: all 168ms ease;
-      &:
-  hover {
-        color: (#ff0000);
-      }
-    }
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
   }
-;
-  .align-items: center;
-  .justify-content: center;
-  .justify-items: center;
+
 }
+
+.tiles .img {
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
+}
+
+  .tiles a {
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
+}
+.tile pre
+{
+        font-weight: 300;
+        padding: 0;
+        line-height: 24px;
+        transform: translateX(-200px);
+        transition-delay: 0.168s;
+        vertical-align: middle;
+    }
 
 .youtube-video {
 aspect-ratio: 16 / 9;
@@ -665,7 +578,7 @@ background-color 0.3s;
 }
 
 .tiles {
-  display: grid;
+  display: flex;
   color: #000000;
   cursor: pointer;
   margin: 0 auto;
@@ -677,48 +590,6 @@ background-color 0.3s;
   justify-content: center;
   }
 
-  &
-  __description {
-    padding: 20px;
-  display: block;
-  h1 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  h2 {font-size: 1.68em;
-  margin-bottom: 16px;}
-  p {line-height: 1.2;}
-    
-    .project-btn {
-  display: block;
-  margin: 16px 0;
-  padding: 20px;
-  text-align: center;
-
-    }
-  ul li {
-      display: inline-block;
-    }
-  ul li:first-child {
-      font-size: 16px;
-    }
-  ul li a {
-      display: block;
-  /* padding: 5px 10px; */
-  /* border: 4pt solid #ffffff; */
-  /* border-radius: 0px; */
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  -webkit-transition: all 168ms ease;
-      &:
-  hover {
-        color: (#ff0000);
-      }
-    }
-  }
-;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
 }
 
 .tiles .img {
