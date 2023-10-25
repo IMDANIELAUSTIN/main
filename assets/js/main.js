@@ -187,3 +187,18 @@ const navIcon = document.querySelector(".nav-icon");const nav = document.querySe
 navIcon.onclick = function () {    nav.classList.toggle('show');}
 
 })(jQuery);
+const backToTopButton = document.querySelector("button");
+
+backToTopButton.onclick = () =>
+  document.documentElement.scroll({
+    top: 0,
+    behavior: "smooth"
+  });
+
+window.onscroll = () => {
+  if (document.documentElement.scrollTop > 200) {
+    backToTopButton.hidden = false;
+  } else {
+    backToTopButton.hidden = true;
+  }
+};

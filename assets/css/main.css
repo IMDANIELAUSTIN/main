@@ -77,6 +77,12 @@
     }
 
 
+.button {
+  position: fixed;
+
+  bottom: 20px;
+  right: 20px;
+}
 
 .show .one {
     transform: rotate(45deg) translateY(6.5px);
