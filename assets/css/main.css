@@ -77,8 +77,8 @@
     }
 
 
-.button {
-  position: fixed;
+button {
+  position: sticky;
 
   bottom: 20px;
   right: 20px;
@@ -91,6 +91,7 @@
 .show .two {
     transform: rotate(-45deg) translateY(-6.5px);
 }
+
 .container {
   position: relative;
   overflow: hidden;
