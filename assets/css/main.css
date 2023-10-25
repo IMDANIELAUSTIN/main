@@ -77,11 +77,26 @@
     }
 
 
-button {
-  position: sticky;
-
+myBtn {
+  display: none;
+  position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #1e1e1e1e;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.myBtn:hover {
+  background-color: #1e1e1e;
+  text-color: #ffffff;
+
 }
 
 .show .one {
