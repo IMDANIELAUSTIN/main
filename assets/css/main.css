@@ -45,7 +45,7 @@ body {
 .logos:after {
   position: absolute;
   top: 0;
-  width: 720px;
+  width: 252px;
   height: 100%;
   content: "";
   z-index: 2;
@@ -53,13 +53,13 @@ body {
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1e1e1e);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1e1e1e 68%);
 
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #1e1e1e);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #1e1e1e 68%);
 }
 
 .logos:hover .logos-slide {
@@ -68,12 +68,12 @@ body {
 
 .logos-slide {
   display: inline-flex;
-  animation: 5s slide infinite cubic-bezier(0, 0, 0, 0);
+  animation: 108s slide infinite cubic-bezier(0, 0, 0, 0);
 }
 
 .logos-slide img {
   height: 48px;
-  margin: 0 125;
+  margin: 0 72;
 }
 
 .nav-content {
