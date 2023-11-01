@@ -33,11 +33,12 @@ body {
 }
 
 .logos {
-  overflow: hidden;
-  padding: 60px 0;
-  background: white;
-  white-space: nowrap;
-  position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+    background: inherit;
+    white-space: nowrap;
+    position: relative;
+
 }
 
 .logos:before,
@@ -51,13 +52,14 @@ body {
 }
 
 .logos:before {
-  left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1e1e1e);
+
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #1e1e1e);
 }
 
 .logos:hover .logos-slide {
