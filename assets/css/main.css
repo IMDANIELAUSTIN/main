@@ -13,6 +13,16 @@
     position: block;
     margin: 2px auto;
     }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -55,14 +65,15 @@
 }
 
 .logos-slide {
-  display: inline-block;
-  animation: 35s slide infinite linear;
+  display: inline-flex;
+  animation: 16s slide infinite linear;
 }
 
 .logos-slide img {
   height: 50px;
   margin: 0 40px;
 }
+
 .nav-content {
     position: static;
     max-width: 1024px;
@@ -213,6 +224,11 @@ body
 {
   background-color:#1e1e1e
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 .wrap
 {
     margin: 16px auto;
