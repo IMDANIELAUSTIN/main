@@ -68,12 +68,12 @@ body {
 
 .logos-slide {
   display: inline-flex;
-  animation: 48s slide infinite cubic-bezier(0, 0, 0, 0);
+  animation: 5s slide infinite cubic-bezier(0, 0, 0, 0);
 }
 
 .logos-slide img {
   height: 48px;
-  margin: 0 106;
+  margin: 0 125;
 }
 
 .nav-content {
