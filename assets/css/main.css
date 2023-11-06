@@ -173,6 +173,7 @@ myBtn {
   position: relative;
   overflow: hidden;
   width: 100%;
+  scrollbar-gutter: stable both-edges;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
@@ -238,6 +239,7 @@ html {
     display:grid;
     align-items: stretch;
     max-width: 1200px;
+
 }
 .tile
 {
