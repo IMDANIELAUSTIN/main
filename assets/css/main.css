@@ -1484,7 +1484,7 @@ div .copyright{
     text-align: center;
 }
   
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .show {
         background-color: #1e1e1e;
     }
