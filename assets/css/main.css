@@ -13,68 +13,6 @@
     position: block;
     margin: 2px auto;
     }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #f2f2f2;
-}
-
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-.logos {
-    overflow: hidden;
-    padding: 48px 0;
-    background: inherit;
-    white-space: nowrap;
-    position: relative;
-
-}
-
-.logos:before,
-.logos:after {
-  position: absolute;
-  top: 0;
-  width: 252px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.logos:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1e1e1e 68%);
-
-}
-
-.logos:after {
-  right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #1e1e1e 68%);
-}
-
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-
-.logos-slide {
-  display: inline-flex;
-  animation: 108s slide infinite cubic-bezier(0, 0, 0, 0);
-}
-
-.logos-slide img {
-  height: 48px;
-  margin: 0 72;
-}
 
 .nav-content {
     position: static;
@@ -139,27 +77,6 @@ body {
     }
 
 
-myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  background-color: #1e1e1e1e;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 16px;
-}
-
-.myBtn:hover {
-  background-color: #1e1e1e;
-  text-color: #ffffff;
-
-}
 
 .show .one {
     transform: rotate(45deg) translateY(6.5px);
@@ -168,12 +85,10 @@ myBtn {
 .show .two {
     transform: rotate(-45deg) translateY(-6.5px);
 }
-
 .container {
   position: relative;
   overflow: hidden;
   width: 100%;
-  scrollbar-gutter: stable both-edges;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
@@ -227,11 +142,6 @@ body
 {
   background-color:#1e1e1e
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
 .wrap
 {
     margin: 16px auto;
@@ -239,7 +149,6 @@ html {
     display:grid;
     align-items: stretch;
     max-width: 1200px;
-
 }
 .tile
 {
@@ -1484,7 +1393,7 @@ div .copyright{
     text-align: center;
 }
   
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     .show {
         background-color: #1e1e1e;
     }
