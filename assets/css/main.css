@@ -241,7 +241,7 @@ body
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
 }
 .button {
-                display: inline-flex;
+                display: inline-block;
                 outline: 0;
                 border: 0;
                 cursor: pointer;
