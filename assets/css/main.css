@@ -237,7 +237,9 @@ body
   opacity:1;
   transform:translateY(0px);
 }
-
+.box-shadow {
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+}
 .button {
                 display: inline-flex;
                 outline: 0;
@@ -255,32 +257,6 @@ body
                 :hover{
                     box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
                 }
-.box-shadow {
-    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
-}
-.dropshadow {
-    drop-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
-}
-.input {
-                    position: relative;
-                    cursor: text;
-                    font-size: 14px;
-                    line-height: 20px;
-                    padding: 0 16px;
-                    height: 48px;
-                    background-color: #fff;
-                    resize:none;
-                    border: 1px solid #d6d6e7;
-                    border-radius: 3px;
-                    color: rgb(35, 38, 59);
-                    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
-                    overflow: hidden;
-                    transition: all 100ms ease-in-out;
-                    :focus {
-                        border-color: #3c4fe0;
-                        box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
-                        width: 100%;
-                    }
                 
 @media (max-width: 1000px) {
   .wrap {
