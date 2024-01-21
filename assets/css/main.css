@@ -146,6 +146,7 @@ header, .wrap {
     position: relative;
     outline: 0;
     border: 0;
+    text-color: #000000;
     font-weight: 600;
     color: rgb(72, 76, 122);
     font-size: 14px;
@@ -163,10 +164,10 @@ header, .wrap {
     transition: all .2s ease-out;
 }
 
-.button:hover {
+.button hover{
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48), -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
 }
-.button: a{
+.button hover:a{
    text-color: hex(#000000);
 }
 .button:hover a{
