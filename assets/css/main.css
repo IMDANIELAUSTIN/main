@@ -148,9 +148,9 @@ header, .wrap {
     outline: 0;
     border: 0;
     text-color: #000000;
-    font-weight: 600;
-    color: rgb(72, 76, 122);
-    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-size: 16pt;
     height: 38px;
     width:100% auto;
     padding: 8px 24px;
@@ -164,7 +164,22 @@ header, .wrap {
     box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
     transition: all .2s ease-out;
 }
-
+.button a{
+    display: inline-flex;
+    position: relative;
+    outline: 0;
+    border: 0;
+    text-color: #000000;
+    font-weight: bold;
+    color: black;
+    font-size: 16pt;
+    height: 38px;
+    align-content: stretch;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
 .button hover{
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48), -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
 }
