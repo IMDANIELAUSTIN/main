@@ -43,7 +43,7 @@
 }
 
 .nav-content a:hover, .nav-links a:hover, .nav-links a:active, .article a:hover {
-    color: light-dark(rgb(255 255 255), rgb(0 0 0);
+    color: inherit;
 }
 
 .nav-icon {
