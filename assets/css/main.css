@@ -143,29 +143,31 @@ header, .wrap {
 }
 
 .button {
-    display: inline-flex;
-    outline: 0;
-    border: 0;
-    color: #1e1e1e; 
-    font-weight: bold;
-    font-size: inherit;
-    height: 8pt auto;
+    display: inline-block;
+    height: auto;
     width: 100%; 
     padding: 8px 24px;
+    margin: 16px auto;
+    outline: 0;
+    border: 0;
+    color: inherit; 
+    background-color: hex(#1e1e1e);
+    font-weight: bold;
+    font-size: 16pt;
     text-align: center;
+    text-color: inherit;
     justify-items: center;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
     background-image: linear-gradient(180deg, #fff, #f5f5fa);
-    background-color: #1e1e1e;
     box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
     transition: all .2s ease-out;
 }
 
 .button:hover, .button:active {
-    background-color: #1e1e1e;
-    color: #ff0000;
+    background-color: hex(#1e1e1e);
+    color: hex(#ff0000);
 }
 @media (max-width: 1000px) {
   .wrap {
