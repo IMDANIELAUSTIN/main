@@ -43,7 +43,7 @@
 }
 
 .nav-content a:hover, .nav-links a:hover, .nav-links a:active, .article a:hover {
-    color: inherit;
+    color: #ff0000;
 }
 
 .nav-icon {
@@ -56,7 +56,7 @@
 }
 
 .nav-icon:hover {
-    opacity: 48%;
+    opacity: 100%;
 }
 
 .show .one {
@@ -193,6 +193,11 @@ header, .wrap {
 .button:hover, .button:active {
     background-color: (#1e1e1e);
     color: (#ff0000);
+}
+
+.button a {
+    background-color: transparent;
+    color: (#1e1e1e);
 }
 @media (max-width: 1000px) {
   .wrap {
@@ -1405,7 +1410,7 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #ffffff;
+        background: inherit;
         background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
@@ -1614,6 +1619,10 @@ pre {
 .button:hover, .button:active {
     background-color: (#1e1e1e);
     color: (#ff0000);
+}
+.button a {
+    background-color: transparent;
+    color: (#1e1e1e);
 }
     
 h1 , h2 , ul, ol, li, head {
