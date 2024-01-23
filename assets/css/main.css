@@ -111,36 +111,61 @@ header, .wrap {
     text-decoration: none;
 }
 
-.tile {
-    width: 640px;
-    height: 640px;
+.tile
+{
+    width: 640;
+    height: 640;
     margin: 16px auto;
+    padding:auto;
+    background-color: #1e1e1e;
     display: flex;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    cursor: pointer;
     transition: all 0.168s ease-out;
-    box-shadow: 0 35px 77px -17px rgba(0,0,0,0.44);
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
 }
-
-.tile img {
-    height: inherit;
-    width: 100%;
-    position: absolute;
-    transition: all 0.168s ease-out;
+.tile .text
+{
+    z-index: 104;
+    position:absolute;
+    padding: 32px;
+    height:calc(100% - 60px);
+    line-height:24px;
 }
 
-.tile:hover {
-    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48), -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
-    transform: scale(1.05);
+.tiles .img {
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
 }
 
-.tile:hover img {
-    opacity: 0.2;
+  .tiles a {
+  display: block;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
 }
+.tile pre
+{
+        font-weight: 300;
+        padding: 0;
+        line-height: 24px;
+        transform: translateX(-200px);
+        transition-delay: 0.168s;
+        vertical-align: middle;
+    }
 
 .button {
     display: inline-block;
@@ -1087,7 +1112,7 @@ pre {
     
     .show .nav-links {
         height: 100%;
-        background-color: #1e1e1e;
+        background-color: #ffffff;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
