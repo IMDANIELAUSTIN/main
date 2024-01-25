@@ -192,13 +192,13 @@ header, .wrap {
 }
 
 .button:hover, .button:active {
-    background-color: (#1e1e1e);
+    background-color: (transparent);
     color: (#ff0000);
 }
 
 .button a {
     background-color: transparent;
-    color: (#1e1e1e);
+    color: (#ffffff);
 }
 @media (max-width: 1000px) {
   .wrap {
@@ -616,11 +616,12 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
     text-align: center;
+
 }
 
 a:active, a:hover {
