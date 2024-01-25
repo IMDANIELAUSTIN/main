@@ -5,6 +5,7 @@
     background: #1e1e1e;
     padding: 16px 0;
     color: #ff0000;
+    color-scheme: light dark;
 }
 
 .logo {
@@ -13,7 +14,7 @@
 }
 
 .nav-content, .nav-links a {
-    color: #ffffff;
+color: light-dark(#1e1e1e, #ffffff);
 }
 
 .nav-content {
@@ -1100,7 +1101,7 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #ffffff;
+        background: #1e1e1e;
         background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
@@ -1404,13 +1405,16 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-    .nav-links {
+.nav-content, .nav-links a {
+color: light-dark(#1e1e1e, #ffffff);
+}
+.nav-links {
         position: fixed;
         top: 44px;
         right: 0;
         height: 0;
         width: 100%;
-        background: inherit;
+        background: #1e1e1e;
         background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
