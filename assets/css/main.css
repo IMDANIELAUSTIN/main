@@ -192,13 +192,13 @@ header, .wrap {
 }
 
 .button:hover, .button:active {
-    background-color: (transparent);
+    background-color: (#1e1e1e);
     color: (#ff0000);
 }
 
 .button a {
     background-color: transparent;
-    color: (#ffffff);
+    color: (#1e1e1e);
 }
 @media (max-width: 1000px) {
   .wrap {
@@ -330,7 +330,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -621,7 +621,6 @@ a:link , a:visited {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-
 }
 
 a:active, a:hover {
@@ -1280,7 +1279,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -1665,7 +1664,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
