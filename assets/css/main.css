@@ -1,64 +1,82 @@
 :root {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Helvetica Neue' , "Helvetica" , sans-serif;
     font-weight: bold;
     font-size: 16pt;
+    color: #ffffff;
+    text-decoration-color: #ffffff;
     background: #1e1e1e;
     padding: 16px 0;
     color: #ff0000;
-    color-scheme: light dark;
-}
+    }
 
 .logo {
-    display: block;
+    position: block;
     margin: 2px auto;
-}
-
-.nav-content, .nav-links a {
-color: light-dark(#1e1e1e, #ffffff);
-}
+    }
 
 .nav-content {
+    position: static;
     max-width: 1024px;
     margin: 0 auto;
     padding: 8px;
     display: flex;
     justify-content: space-between;
 }
-
 .nav-content a {
+    position: static;
     display: block;
     font-size: 16pt;
+    font-weight: bold;
     line-height: 30px;
     text-decoration: none;
     transition: all 0.3s;
+    color: #ffffff;
+}
+
+.nav-content a:hover {
+    color: transparent;
 }
 
 .nav-links {
     z-index: 1;
     width: 100%;
-    font-weight:bold;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background: transparent;
     background-color: #1e1e1e;
 }
 
-.nav-content a:hover, .nav-links a:hover, .nav-links a:active, .article a:hover {
+
+.nav-links a:hover{
+    background: transparent;
     color: #ff0000;
-}
+    opacity: 100%;
+    }
+
+.nav-links a:active{
+    background: transparent;
+    color: #ff0000;
+    opacity: 100%;
+    }
+
 
 .nav-icon {
     display: none;
     grid-gap: 4px;
+    grid-template-columns: auto;
     padding: 16px 0;
     height: 8px;
     cursor: pointer;
     transition: all 0.3s;
 }
 
-.nav-icon:hover {
-    opacity: 100%;
-}
+.nav-icon :hover{
+    background: transparent;
+    opacity: 48%;
+    }
+
+
 
 .show .one {
     transform: rotate(45deg) translateY(6.5px);
@@ -67,57 +85,77 @@ color: light-dark(#1e1e1e, #ffffff);
 .show .two {
     transform: rotate(-45deg) translateY(-6.5px);
 }
-
 .container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
+/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
-header, .wrap {
-    max-width: 1240px;
-    margin: 0 auto;
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
 }
-
-.wrap {
-    display: grid;
-    align-items: stretch;
-}
-
-.article, .tile, body {
-    background-color: #1e1e1e;
-}
-
-.article, .button {
-    cursor: pointer;
-}
-
 .article {
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 auto;
     text-align: center;
     position: relative;
 }
 
-.article a {
+.article .a{
     text-decoration: none;
+    text-align: center;
+    postition: relative;
+    
 }
 
+.article :hover{
+    background: transparent;
+    color: #ff0000;
+    }
+
+.article :img {
+    display: grid;
+    color: #000000;
+    cursor: pointer;
+    margin: 8 auto;
+    align-content: middle;
+    text-align: center;
+    position: relative;
+}
+
+body
+{
+  background-color:#1e1e1e
+}
+.wrap
+{
+    margin: 16px auto;
+    width: auto;
+    display:grid;
+    align-items: stretch;
+    max-width: 1200px;
+}
 .tile
 {
     width: 640;
     height: 640;
     margin: 16px auto;
-    padding:auto;
+    padding: auto;
     background-color: #1e1e1e;
     display: flex;
     background-size: contain;
@@ -129,6 +167,7 @@ header, .wrap {
     overflow: hidden;
     color: white;
     font-family: 'Helvetica';
+
 }
 .tile .text
 {
@@ -136,67 +175,70 @@ header, .wrap {
     position:absolute;
     padding: 32px;
     height:calc(100% - 60px);
-    line-height:24px;
 }
 
-.tiles .img {
-  display: block;
-    color: #000000;
-    cursor: pointer;
-    margin: 0 auto;
-    align-content: middle;
-    text-align: center;
-    position: relative;
-}
-
-  .tiles a {
-  display: block;
-    color: #000000;
-    cursor: pointer;
-    margin: 0 auto;
-    align-content: middle;
-    text-align: center;
-    position: relative;
-}
-.tile pre
+.tile img
 {
-        font-weight: 300;
-        padding: 0;
-        line-height: 24px;
-        transform: translateX(-200px);
-        transition-delay: 0.168s;
-        vertical-align: middle;
-    }
-
-.button {
-    display: inline-block;
-                outline: 0;
-                border: 0;
-                cursor: pointer;
-                border-radius: 8px;
-                padding: 14px 24px 16px;
-                font-size: 16pt;
-                font-weight: 700;
-                line-height: 1;
-                transition: transform 200ms,background 200ms;
-                background: transparent;
-                color: #000000;
-                box-shadow: 0 0 0 3px #000000 inset;
-                :hover{
-                    transform: translateY(-2px);
+  height: inherit;
+  width:100%;
+  position:absolute;
+  /* top:0; */
+  /* left:0; */
+  /* z-index:0; */
+  transition: all 0.168s ease-out;
 }
 
-.button:hover, .button:active {
-    background-color: (#1e1e1e);
-    color: (#ff0000);
+.tile h1
+{
+ 
+  font-weight:300;
+  margin:0;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tile h2
+{
+  font-weight:100;
+  margin:20px 0 0 0;
+  font-style:italic;
+   transform: translateX(200px);
+}
+.tile p
+{
+  font-weight:300;
+  margin:20px 0 0 0;
+  line-height: 25px;
+/*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.168s ease-in-out;
+}
+.tile:hover
+{
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
 }
 
-.button a {
-    background-color: transparent;
-    color: (#1e1e1e);
+.tile:hover span
+{
+  opacity:1;
+  transform:translateY(0px);
 }
 
-                
+
 @media (max-width: 1000px) {
   .wrap {
    flex-direction: column;
@@ -327,7 +369,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: transparent;
+    background-color: #1e1e1e;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -613,7 +655,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: transparent;
+    background-color: #1e1e1e;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -1098,7 +1140,7 @@ pre {
         right: 0;
         height: 0;
         width: 100%;
-        background: #1e1e1e;
+        background: #ffffff;
         background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
@@ -1115,7 +1157,7 @@ pre {
     
     .show .nav-links {
         height: 100%;
-        background-color: #ffffff;
+        background-color: #1e1e1e;
         opacity: 100%;
         transition: height 2s cubic-bezier(0.19, 1, 0.22, 1),
             background-color 0.3s;
@@ -1276,7 +1318,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: transparent;
+    background-color: #1e1e1e;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -1402,16 +1444,13 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-.nav-content, .nav-links a {
-color: light-dark(#1e1e1e, #ffffff);
-}
-.nav-links {
+    .nav-links {
         position: fixed;
         top: 44px;
         right: 0;
         height: 0;
         width: 100%;
-        background: #1e1e1e;
+        background: #ffffff;
         background-color: #1e1e1e;
         opacity: 100%;
         flex-direction: column;
@@ -1593,34 +1632,6 @@ color: light-dark(#1e1e1e, #ffffff);
         transition-delay: 0.168s;
         vertical-align: middle;
     }
-
-.button {
-    display: inline-block;
-                outline: 0;
-                border: 0;
-                cursor: pointer;
-                border-radius: 8px;
-                padding: 14px 24px 16px;
-                font-size: 16pt;
-                font-weight: 700;
-                line-height: 1;
-                transition: transform 200ms,background 200ms;
-                background: transparent;
-                color: #000000;
-                box-shadow: 0 0 0 3px #000000 inset;
-                :hover{
-                    transform: translateY(-2px);
-}
-
-.button:hover, .button:active {
-    background-color: (#1e1e1e);
-    color: (#ff0000);
-}
-.button a {
-    background-color: transparent;
-    color: (#1e1e1e);
-}
-    
 h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
@@ -1656,7 +1667,7 @@ u, hr {
 }
 
 a:link , a:visited {
-    background-color: transparent;
+    background-color: #1e1e1e;
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
